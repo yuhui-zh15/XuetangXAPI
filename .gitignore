@@ -1,5 +1,6 @@
 buffer/*
-data/*
+data/*.json
+data/*.csv
 render_zyh/assets/courses/*
 .DS_Store
 **.pyc

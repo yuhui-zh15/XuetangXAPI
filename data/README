@@ -1,0 +1,9 @@
+build_mongo.py: 汇总数据，存入table.json，然后把table.json中的数据传入本地mongo
+    mongo 数据库名字 xuetangx ，表名 user_stats，在 user_id 字段上创建索引，此字段为字符串类型
+    user_stats 表中字段：
+        user_id: 用户id，字符串类型，此字段有索引
+        profile: 用户profile信息
+        courses: 用户选课上课信息，为list类型，每个元素包含课程的分类、简介、选课时间、名字、学习时间
+        video: 用户观看视频行为，为list类型，每个元素代表代表在一个视频上的行为
+        
+table.json: 要上传到mongo数据库的数据
