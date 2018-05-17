@@ -1,0 +1,4 @@
+buffer/*
+data/*
+.DS_Store
+**.pyc
