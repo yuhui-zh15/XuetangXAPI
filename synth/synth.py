@@ -1,4 +1,6 @@
 from PIL import Image
+from render_zyh.render import *
+from db_zyh.db import *
 import sys
 
 '''
@@ -7,14 +9,32 @@ args:
 @images_in: [filename1(str), filename2(str), ...]
 @image_out: [filename(str)]
 '''
-def synth(images_in, image_out):
-    images_in = [Image.open(filename) for filename in images_in]
-    width, height = images_in[0].size
-    result = Image.new(images_in[0].mode, (width, height * len(images_in)))
-    for i, image in enumerate(images_in):
+def synth(images):
+    width, height = images[0].size
+    result = Image.new(images[0].mode, (width, height * len(images)))
+    for i, image in enumerate(images):
         result.paste(image, box=(0, i * height))
-    result.save(image_out)
+    return result
+
+
+def generate(userid):
+    image1 = render1()
+    data2 = get_data2(userid)
+    image2 = render2(data2)
+    data3 = get_data3(userid)
+    image3 = render3(data3)
+    data4 = get_data4(userid)
+    image4 = render4(data4) 
+    data5 = get_data5(userid)
+    image5 = render5(data5)
+    data6 = get_data6(userid)
+    image6 = render6(data6)
+    image7 = render7()
+    return image1, image2, image3, image4, image5, image6, image7
 
 
 if __name__ == '__main__':
-    synth(sys.argv[1:], 'result.png')
+    images = generate('473725')
+    result = synth(images)
+    result.save('result.png')
+
