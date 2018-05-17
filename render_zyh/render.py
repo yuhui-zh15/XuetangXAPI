@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import random
 
 img_dir = 'render_zyh/assets/images/'
+course_dir = 'render_zyh/assets/courses/'
 font_dir = 'render_zyh/assets/fonts/'
 
 def render1():
@@ -77,6 +78,9 @@ def render4(data):
     typewriter(img, (175, 75), (560, 275), '其中你为%s课程投入了%s小时的时间，这是你学习最认真的课程。' % (data['max_course_name'], data['n_hours']), font_dir + 'FZJL.TTF', 35, (255, 255, 255, 255))
     typewriter(img, (90, 570), (550, 750), data['max_course_description'], font_dir + 'HT.otf', 14, (255, 255, 255, 255), bold=False)
     typewriter(img, (60, 765), (560, 885), '相信这门课会为你将来的成功打下坚实的基础！', font_dir + 'FZJL.TTF', 35, (255, 255, 255, 255))
+    data['image_file'] = '99.jpg' # <TODO> remind to remove
+    course_img = Image.open(course_dir + data['image_file']).resize((451, 253))
+    img.paste(course_img, (88, 292))
     return img
 
 
@@ -109,6 +113,15 @@ def render6(data):
     img = Image.open(img_dir + '6.png')
     typewriter(img, (75, 155), (560, 400), '你是个%s的人~' % ('、'.join(data['characteristic'])), font_dir + 'FZJL.TTF', 35, (255, 255, 255, 255))
     typewriter(img, (75, 415), (560, 480), '学堂君猜测你或许还会喜欢：', font_dir + 'FZJL.TTF', 35, (255, 255, 255, 255))
+    data['recommend_courses_image_file'] = ['99.jpg', '99.jpg', '99.jpg', '99.jpg'] # <TODO> remind to remove
+    course_img0 = Image.open(course_dir + data['recommend_courses_image_file'][0]).resize((244, 136))
+    course_img1 = Image.open(course_dir + data['recommend_courses_image_file'][1]).resize((244, 136))
+    course_img2 = Image.open(course_dir + data['recommend_courses_image_file'][2]).resize((244, 136))
+    course_img3 = Image.open(course_dir + data['recommend_courses_image_file'][3]).resize((244, 136))
+    img.paste(course_img0, (67, 530))
+    img.paste(course_img1, (67, 690))
+    img.paste(course_img2, (330, 530))
+    img.paste(course_img3, (331, 691))
     return img
 
 

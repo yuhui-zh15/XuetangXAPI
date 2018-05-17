@@ -82,9 +82,14 @@ def get_data4(user_id):
     n_hours = int(n_hours / 3600)
     total_hours = int(total_hours / 3600)
     max_course_description = re.sub(r'</?\w+[^>]*>', '', max_course_description)
+
+    record = table_course.find_one({'name': max_course_name})
+    if record is None: image_file = None
+    else: image_file = record['image']
+    print(image_file)
     
     return { 'max_course_name': max_course_name, 'max_course_description': max_course_description, 
-        'n_hours': n_hours, 'total_hours': total_hours, 'image_file': '<TODO>' }
+        'n_hours': n_hours, 'total_hours': total_hours, 'image_file': image_file }
 
 
 def get_data5(user_id):
@@ -133,8 +138,8 @@ def get_data5(user_id):
     idx_period = n_hours.index(max(n_hours))
     idx_study = 0 if average_hours < 1.0 else 1
 
-    record = table_course.find_one({'courseid': max_course})
-    if record is not None: max_course = record['course']['name']
+    record = table_course.find_one({'id': max_course})
+    if record is not None: max_course = record['name']
 
     return { 'period_adjective': period_adjective[idx_period], 'period': period[idx_period], 'n_hours': n_hours[idx_period],
         'total_hours': total_hours, 'comment': comment[idx_period], 'study_adjective': study_adjective[idx_study],
@@ -147,11 +152,29 @@ def get_data6(user_id):
     record = table_user.find_one({'user_id': user_id})
     if record is None: return None
 
-    # <TODO> user tagging
+    # <TODO> better user tagging
     characteristic = ['聪明勤奋','严于律己','热爱思考','热爱文学','热爱艺术']
-    # <TODO> course recommendation
-    recommend_courses_image_file = ['os.png', 'ds.png', 'os.png', 'ds.png']
-    
+
+    user_courses = []
+    category2cnt = defaultdict(int)
+    for course in record['courses']:
+        user_courses.append({'name': course['name'], 'watch_time': course['watch_time'], 'category': course['category']})
+        for category in course['category']:
+            category2cnt[category] += 1
+
+    max_category, max_cnt = None, 0
+    for category, cnt in category2cnt.items():
+        if cnt > max_cnt:
+            max_category = category
+            max_cnt = cnt
+
+    record = table_category.find_one({'category': max_category})
+    if record is None: category_courses = []
+    else: category_courses = record['courses']
+
+    # <TODO> better course recommendation
+    recommend_courses_image_file = [course['image'] for course in category_courses]
+
     return {
         'characteristic': characteristic,
         'recommend_courses_image_file': recommend_courses_image_file

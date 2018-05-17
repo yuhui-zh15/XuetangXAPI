@@ -1,4 +1,5 @@
 buffer/*
 data/*
+render_zyh/assets/course/*
 .DS_Store
 **.pyc
