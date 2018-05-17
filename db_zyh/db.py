@@ -65,7 +65,7 @@ def get_data3(user_id):
     if record is None: category_courses = []
     else: category_courses = record['courses']
 
-    return {'user_courses': user_courses, 'category_courses': category_courses, 'max_category': max_category }
+    return {'user_courses': user_courses, 'category_courses': category_courses, 'max_category': max_category, 'max_cnt': max_cnt }
 
 
 def get_data4(user_id):

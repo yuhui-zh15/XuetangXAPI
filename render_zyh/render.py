@@ -1,7 +1,9 @@
 #encoding=utf-8
 from PIL import Image
 from wordcloud import WordCloud
-from render_zyh.utils import require, typewriter
+from render_zyh.utils import require, typewriter, normalized
+import matplotlib.pyplot as plt
+import random
 
 img_dir = 'render_zyh/assets/images/'
 font_dir = 'render_zyh/assets/fonts/'
@@ -30,13 +32,36 @@ def render2(data):
 
 @require(
     max_category='课组名',
+    max_cnt='课组选课数',
     user_courses='用户选修过的所有课程，是一个列表，其中每个元素应具有`name`和`watch_time`两个字段',
     category_courses='用户选修最多的那个课程的一部分课程，用来占位，其中每个元素应当有`name`这个字段',
 )
 def render3(data):
+    def white_color_func(word, font_size, position, orientation, random_state=None, **kwargs):
+        return "rgb(255,255,255)"
     img = Image.open(img_dir + '3.png')
     typewriter(img, (63, 80), (432, 280), '在这卷帙浩繁的课程中，\n你最喜欢的课程类别是\n%s。' % (data['max_category']), font_dir + 'FZJL.TTF', 35, (255, 255, 255, 255))
-    typewriter(img, (63, 350), (539, 478), '你在这里选修了%s门课程。\n它们分别是：' % (len(data['user_courses'])), font_dir + 'FZJL.TTF', 35, (255, 255, 255, 255))
+    typewriter(img, (63, 350), (539, 478), '你在这里选修了%s门课程。\n它们分别是：' % (data['max_cnt']), font_dir + 'FZJL.TTF', 35, (255, 255, 255, 255))
+    max_courses = 20
+    frequencies = {}
+    
+    for course in data['user_courses']:
+        if len(frequencies) > max_courses: break
+        name = normalized(course['name'])
+        for category in course['category']:
+            if category == data['max_category']:
+                frequencies[name] = course['watch_time'] / 3600 + 1
+                break
+        
+    for course in data['category_courses']:
+        if len(frequencies) > max_courses: break
+        name = normalized(course['name'])
+        if name not in frequencies: frequencies[name] = 1
+        
+
+    wordcloud = WordCloud(scale=1, mode='RGBA', background_color=None, width=395, height=270, font_path=font_dir + 'HT.otf') \
+        .generate_from_frequencies(frequencies).recolor(color_func=white_color_func).to_image()
+    img.paste(wordcloud, (120, 570), wordcloud)
     return img
 
 
