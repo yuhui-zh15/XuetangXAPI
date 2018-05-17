@@ -78,7 +78,7 @@ def render4(data):
     typewriter(img, (175, 75), (560, 275), '其中你为%s课程投入了%s小时的时间，这是你学习最认真的课程。' % (data['max_course_name'], data['n_hours']), font_dir + 'FZJL.TTF', 35, (255, 255, 255, 255))
     typewriter(img, (90, 570), (550, 750), data['max_course_description'], font_dir + 'HT.otf', 14, (255, 255, 255, 255), bold=False)
     typewriter(img, (60, 765), (560, 885), '相信这门课会为你将来的成功打下坚实的基础！', font_dir + 'FZJL.TTF', 35, (255, 255, 255, 255))
-    data['image_file'] = '99.jpg' # <TODO> remind to remove
+    # data['image_file'] = '99.jpg' # for test
     course_img = Image.open(course_dir + data['image_file']).resize((451, 253))
     img.paste(course_img, (88, 292))
     return img
@@ -113,7 +113,7 @@ def render6(data):
     img = Image.open(img_dir + '6.png')
     typewriter(img, (75, 155), (560, 400), '你是个%s的人~' % ('、'.join(data['characteristic'])), font_dir + 'FZJL.TTF', 35, (255, 255, 255, 255))
     typewriter(img, (75, 415), (560, 480), '学堂君猜测你或许还会喜欢：', font_dir + 'FZJL.TTF', 35, (255, 255, 255, 255))
-    data['recommend_courses_image_file'] = ['99.jpg', '99.jpg', '99.jpg', '99.jpg'] # <TODO> remind to remove
+    # data['recommend_courses_image_file'] = ['99.jpg', '99.jpg', '99.jpg', '99.jpg'] # for test
     course_img0 = Image.open(course_dir + data['recommend_courses_image_file'][0]).resize((244, 136))
     course_img1 = Image.open(course_dir + data['recommend_courses_image_file'][1]).resize((244, 136))
     course_img2 = Image.open(course_dir + data['recommend_courses_image_file'][2]).resize((244, 136))
@@ -132,45 +132,4 @@ def render7():
 
 if __name__ == '__main__':
     pass
-    # data = {
-    #     'name': 'yuhui',
-    #     'year': 97,
-    #     'month': 4,
-    #     'day': 13,
-    #     'n_hours': 1000,
-    #     'n_courses': 20,
-    #     'rank': 95
-    # }
-    # render1(data)
-    # data = {
-    #     'category': '计算机',
-    #     'user_courses': {'计算机程序设计基础':100, '数据结构':80},
-    #     'category_courses': {'操作系统', '大数据', '机器学习'}
-    # }
-    # render2(data) 
-    # data = {
-    #     'max_course_name': '毛泽东思想与中国特色社会主义理论体系',
-    #     'n_hours': 100,
-    #     'total_hours': 200,
-    #     'image_file': 'os.png'
-    # }
-    # render3(data) 
-    # data = {
-    #     'period_adjective': '阳光明媚',
-    #     'period': '清晨',
-    #     'n_hours': 100,
-    #     'total_hours': 200,
-    #     'comment': '早起的鸟儿有虫吃',
-    #     'study_adjective': '零碎',
-    #     'average_hours': 1.5,
-    #     'max_date': '2018年4月13日',
-    #     'max_course': '操作系统',
-    #     'max_hours': 10
-    # }
-    # render4(data)
-    # data = {
-    #     'characteristic': ['勤奋','自律','早睡早起','热爱生活','热爱思考','热爱文学'],
-    #     'recommend_courses_image_file': ['os.png', 'ds.png', 'os.png', 'ds.png']
-    # }
-    # render5(data)
     
