@@ -2,8 +2,6 @@
 from PIL import Image
 from wordcloud import WordCloud
 from render_zyh.utils import require, typewriter, normalized
-import matplotlib.pyplot as plt
-import random
 
 img_dir = 'render_zyh/assets/images/'
 course_dir = 'render_zyh/assets/courses/'
