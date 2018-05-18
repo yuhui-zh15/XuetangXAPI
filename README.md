@@ -11,3 +11,8 @@ Build Dataset:
 - python build_mongo.py
 - python build_categories.py
 - python build_courses.py
+
+Run Server:
+sudo python3 main.py
+
+> Note: only support python3

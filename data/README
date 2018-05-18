@@ -7,3 +7,21 @@ build_mongo.py: 汇总数据，存入table.json，然后把table.json中的数�
         video: 用户观看视频行为，为list类型，每个元素代表代表在一个视频上的行为
         
 table.json: 要上传到mongo数据库的数据
+
+build categories.py: 
+    mongo 数据库名字 xuetangx ，表名 category_stats，在 category 字段上创建索引，此字段为字符串类型
+    category stats 表中字段：
+        category: 课程类别
+        courses: 对应课程类别所有课，courses中每个课又包含：
+            course_id: 课程id
+            name: 课程名称
+            image: 课程缩略图
+
+build courses.py: 
+    mongo 数据库名字 xuetangx ，表名 course_stats，在 id, name 字段上创建索引，此字段为字符串类型
+    course stats 表中字段：
+        id: 课程id
+        name: 课程名称
+        about: 课程简介（html形式）
+        category: 课程类别
+        image: 课程缩略图
