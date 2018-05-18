@@ -86,7 +86,7 @@ def get_data4(user_id):
     record = table_course.find_one({'name': max_course_name})
     if record is None: image_file = None
     else: image_file = record['image']
-    print(image_file)
+    # print(image_file)
     
     return { 'max_course_name': max_course_name, 'max_course_description': max_course_description, 
         'n_hours': n_hours, 'total_hours': total_hours, 'image_file': image_file }
