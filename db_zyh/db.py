@@ -86,6 +86,7 @@ def get_data4(user_id):
 
     max_course_description = html_parser.unescape(max_course_description)
     max_course_description = re.sub(r'</?\w+[^>]*>', '', max_course_description)
+    max_course_description = max_course_description.replace('\s', '')
     
     record = table_course.find_one({'name': max_course_name})
     if record is None: image_file = None
@@ -93,6 +94,7 @@ def get_data4(user_id):
     # print(image_file)
     
     max_course_name = re.sub(r'\(.*?\)', '', max_course_name)
+    max_course_name = re.sub(r'（.*?）', '', max_course_name)
     return { 'max_course_name': max_course_name, 'max_course_description': max_course_description, 
         'n_hours': n_hours, 'total_hours': total_hours, 'image_file': image_file }
 
