@@ -4,7 +4,7 @@ import json
 import datetime
 import codecs
 from collections import defaultdict
-
+from html.parser import HTMLParser
 import pymongo
 
 
@@ -13,6 +13,7 @@ db = connection.xuetangx
 table_user = db.user_stats
 table_category = db.category_stats
 table_course = db.course_stats
+html_parser = HTMLParser()
 
 def get_data2(user_id):
     record = table_user.find_one({'user_id': user_id})
@@ -82,13 +83,16 @@ def get_data4(user_id):
             max_course_description = course['about']
     n_hours = int(n_hours / 3600)
     total_hours = int(total_hours / 3600)
-    max_course_description = re.sub(r'</?\w+[^>]*>', '', max_course_description)
 
+    max_course_description = html_parser.unescape(max_course_description)
+    max_course_description = re.sub(r'</?\w+[^>]*>', '', max_course_description)
+    
     record = table_course.find_one({'name': max_course_name})
     if record is None: image_file = None
     else: image_file = record['image']
     # print(image_file)
     
+    max_course_name = re.sub(r'\(.*?\)', '', max_course_name)
     return { 'max_course_name': max_course_name, 'max_course_description': max_course_description, 
         'n_hours': n_hours, 'total_hours': total_hours, 'image_file': image_file }
 
