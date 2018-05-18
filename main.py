@@ -1,6 +1,7 @@
 from flask import Flask, Response
 from synth.synth import synth, generate
 import time
+import os
 app = Flask(__name__)
 
          
@@ -10,6 +11,7 @@ def index(userid):
     if os.path.isfile(filename) == False:
         result = synth(generate(userid))
         result.save(filename)
+        #print('Drawing')
     image = open(filename, 'rb')
     resp = Response(image, mimetype='image/jpeg')
     return resp
