@@ -1,3 +1,4 @@
+#coding=utf-8
 from PIL import Image
 from render_zyh.render import *
 from db_zyh.db import *
