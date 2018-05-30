@@ -212,15 +212,43 @@ def render4(data):
     template.save('out4.png')
 
 
+def printer(img, pos, text, font_name, font_size):
+    font_rgba = (102, 102, 102, 255)
+    font = ImageFont.truetype(font=font_dir + font_name, size=font_size)
+    drawer = ImageDraw.Draw(img)
+    drawer.text(pos, text, font=font, fill=font_rgba)
+    text_size = drawer.textsize(text, font=font)
+    return text_size
+
+
+@require(
+    study_adjective='零碎/连续',
+    average_hours='平均每次学习时间',
+)
+def render5(data):
+    template = Image.open(img_dir + '5.png')
+    printer(template, (870, 242), data['study_adjective'], 'msyhl.ttc', 150)
+    pos = (948, 462)
+    margin = 20
+    text_width, _ = printer(template, pos, str(int(60*data['average_hours'])), 'ELEPHNT.TTF', 85)
+    printer(template, (pos[0] + text_width + margin, pos[1]), u'分钟', 'msyhl.ttc', 85)
+    template.save('5.png')
+
+
 if __name__ == '__main__':
-    data = json.load(open('data.json'))
+    # data = json.load(open('data.json'))
     # title = u'操作系统'
     # render3({'max_course_name': title, 'n_hours': 123, 'total_hours': 500, 'image_file': img_dir + 'course2.jpg'})
-    render2(data)
-
+    # render2(data)
     # data = {
     #     'max_clock_interval': '3-6',
     #     'max_clock_interval_hours': 30,
     #     'total_hours': 100
     # }
     # render4(data)
+
+    data = {
+        'study_adjective': u'零散',
+        'average_hours': 123
+    }
+    render5(data)
