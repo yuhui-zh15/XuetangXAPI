@@ -260,8 +260,8 @@ def render5(data):
     printer(canvas, (870, 242), data['study_adjective'], 'msyhl.ttc', 150)
     pos = (948, 462)
     margin = 20
-    text_width, _ = printer(canvas, pos, str(int(60*data['average_hours'])), 'ELEPHNT.TTF', 85)
-    printer(canvas, (pos[0] + text_width + margin, pos[1]), u'分钟', 'msyhl.ttc', 85)
+    text_width, text_height = printer(canvas, pos, str(int(60*data['average_hours'])), 'ELEPHNT.TTF', 85)
+    printer(canvas, (pos[0] + text_width + margin, pos[1]), '分钟', 'msyhl.ttc', 85)
     canvas.save('out5.png')
     return canvas
 
