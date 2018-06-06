@@ -31,7 +31,8 @@ def generate(userid):
     image5 = render5(data5)
     data6 = get_data6(userid)
     image6 = render6(data6)
-    return image1, image2, image3, image4, image5, image6
+    image7 = render7()
+    return image1, image2, image3, image4, image5, image6, image7
 
 
 if __name__ == '__main__':

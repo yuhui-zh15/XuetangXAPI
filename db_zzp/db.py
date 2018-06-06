@@ -3,10 +3,7 @@ import re
 import json
 import codecs
 from collections import defaultdict
-try:
-    from HTMLParser import HTMLParser   # PY2
-except:
-    from html.parser import HTMLParser  # PY3
+from html.parser import HTMLParser  # PY3
 
 import pymongo
 

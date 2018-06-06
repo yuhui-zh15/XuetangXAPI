@@ -6,11 +6,13 @@ import numpy as np
 from PIL import Image, ImageFont, ImageDraw
 from wordcloud import WordCloud
 
-from render_zzp.utils import require, normalized
+from render_zzp.utils import *
+
 
 img_dir = 'render_zzp/assets/images/'
 font_dir = 'render_zzp/assets/fonts/'
 courses_dir = 'render_zyh/assets/courses/'
+
 
 @require(
     year='用户注册年份',
@@ -20,28 +22,11 @@ courses_dir = 'render_zyh/assets/courses/'
     n_courses='用户学习的课程总数'
 )
 def render1(data):
-    font_size = 80
-    font_rgba = (102, 102, 102, 255)
-    font = ImageFont.truetype(font=font_dir + 'ELEPHNT.TTF', size=font_size)
-
-    img = Image.open(img_dir + 'template.png')
-    drawer = ImageDraw.Draw(img)
-
-    year, month, day = data['year'], data['month'], data['day']
-    n_hours = data['n_hours']
-    n_courses = data['n_courses']
-
-    pos_x, pos_y = (699, 327)
-    drawer.text((pos_x, pos_y), '%04d-%02d-%02d' % (year, month, day), font=font, fill=font_rgba)
-    
-    pos_x, pos_y = (1032, 483)
-    drawer.text((pos_x, pos_y), '%3d' % n_hours, font=font, fill=font_rgba)
-
-    pos_x, pos_y = (847, 637)
-    drawer.text((pos_x, pos_y), '%2d' % n_courses, font=font, fill=font_rgba)
-
-    img.save('out1.png')
-    return img
+    canvas = Image.open(img_dir + '1.png')
+    printer(canvas, (699, 327), '%04d-%02d-%02d' % (data['year'], data['month'], data['day']), 'ELEPHNT.TTF', 80)
+    printer(canvas, (1032, 483), '%3d' % data['n_hours'], 'ELEPHNT.TTF', 80)
+    printer(canvas, (847, 637), '%2d' % data['n_courses'], 'ELEPHNT.TTF', 80)
+    return canvas
 
 
 @require(
@@ -73,21 +58,8 @@ def render2(data):
     canvas = Image.open(img_dir + '2.png')
     canvas.paste(wordcloud, pos)
 
-    pos = 800, 170
-    font_rgba = (102, 102, 102, 255)
-    font_size = 150
-    font = ImageFont.truetype(font=font_dir + 'msyh.ttc', size=font_size)
-    drawer = ImageDraw.Draw(canvas)
-    drawer.text(pos, data['max_category'], font=font, fill=font_rgba)
-
-    pos = 920, 400
-    font_size = 120
-    n_courses = len(data['user_courses'])
-    font = ImageFont.truetype(font=font_dir + 'ELEPHNT.TTF', size=font_size)
-    drawer = ImageDraw.Draw(canvas)
-    drawer.text(pos, '%3d' % n_courses, font=font, fill=font_rgba)
-
-    canvas.save('out2.png')
+    printer(canvas, (800, 170), data['max_category'], 'msyh.ttc', 150)
+    printer(canvas, (920, 400), '%3d' % len(data['user_courses']), 'ELEPHNT.TTF', 120)
     return canvas
 
 
@@ -121,13 +93,9 @@ def render3(data):
     drawer.text(pos, '%4d' % data['n_hours'], font=font, fill=font_rgba)
 
     # percent
-    pos = (960, 735)
-    font_size = 70
-    font = ImageFont.truetype(font=font_dir + 'ELEPHNT.TTF', size=font_size)
-    drawer = ImageDraw.Draw(canvas)
     percent = int(100 * data['n_hours'] / float(data['total_hours']))
     if percent == 100: percent = 99
-    drawer.text(pos, '%d%%' % percent, font=font, fill=font_rgba)
+    printer(canvas, (960, 735), '%d%%' % percent, 'ELEPHNT.TTF', 70)
 
     # profile
     profile = Image.open(courses_dir + data['image_file'])
@@ -150,8 +118,8 @@ def render3(data):
     # play icon
     play = Image.open(img_dir + 'play.png')
     canvas.paste(play, (360, 1190), mask=play)
-    canvas.save('out3.png')
     return canvas
+
 
 @require(
     max_clock_interval='用户学习的最长时间区间', 
@@ -182,73 +150,22 @@ def render4(data):
         k: clock_image_dir + k + '.png' for k in clock_intervals
     }
 
-    # title
+    # title & comment
     canvas = Image.open(img_dir + '4.png')
-    font_rgba = (102, 102, 102, 255)
-    font_size = 150
-    pos = (858, 126)
-    font = ImageFont.truetype(font=font_dir + 'msyh.ttc', size=font_size)
-    drawer = ImageDraw.Draw(canvas)
-    drawer.text(pos, clock_interval_names[data['max_clock_interval']], font=font, fill=font_rgba)
-
-    # comment
-    font_size = 60
-    pos = (456, 560)
-    font = ImageFont.truetype(font=font_dir + 'msyh.ttc', size=font_size)
-    drawer.text(pos, clock_interval_comments[data['max_clock_interval']], font=font, fill=font_rgba)
+    printer(canvas, (858, 126), clock_interval_names[data['max_clock_interval']], 'msyh.ttc', 150)
+    printer(canvas, (456, 560), clock_interval_comments[data['max_clock_interval']], 'msyh.ttc', 60)
 
     # percent
-    font_size = 100
-    pos = (1164, 370)
-    font = ImageFont.truetype(font=font_dir + 'ELEPHNT.TTF', size=font_size)
     percent = int(100 * data['max_clock_interval_hours'] / float(data['total_hours']))
     if percent == 1.0: percent = 99
-    drawer.text(pos, '%d%%' % percent, font=font, fill=font_rgba)
+    printer(canvas, (1164, 370), '%d%%' % percent, 'ELEPHNT.TTF', 100)
 
     # clock
     pos = (110, 780)
     clock = Image.open(clock_interval_image_files[data['max_clock_interval']]) \
         .resize((1300, 1300), Image.ANTIALIAS)
     canvas.paste(clock, pos)
-
-    canvas.save('out4.png')
     return canvas
-
-
-def printer(img, pos, text, font_name, font_size, max_x=0):
-    font_rgba = (102, 102, 102, 255)
-    font = ImageFont.truetype(font=font_dir + font_name, size=font_size)
-    drawer = ImageDraw.Draw(img)
-
-    margin = 5
-    cursor = [pos[0], pos[1]]
-    text_width, text_height = 0, 0
-
-    for char in text:
-        text_size = drawer.textsize(char, font=font)
-        if max_x > 0 and cursor[0] + text_size[0] > max_x:
-            cursor = [pos[0], cursor[1] + text_size[1] + margin]
-        drawer.text(cursor, char, font=font, fill=font_rgba)
-        cursor[0] += text_size[0]
-        text_width = max(text_width, cursor[0]) - pos[0]
-        text_height = max(text_height, cursor[1] + text_size[1]) - pos[1]
-
-    return text_width, text_height
-
-
-def circlemask(img, canvas, pos, radius):
-    diameter = 2 * radius
-    width, height = img.size
-    scale = max(diameter / float(width), diameter / float(height))
-    img = img.resize((int(scale * width), int(scale * height)), Image.ANTIALIAS)
-    width, height = img.size
-    box = (width / 2 - radius, 0, width / 2 + radius, diameter)
-    img = img.crop(box)
-    mask = Image.new('L', img.size, 0)
-    drawer = ImageDraw.Draw(mask)
-    drawer.ellipse((0, 0, diameter, diameter), fill=255)
-    img.putalpha(mask) 
-    canvas.paste(img, pos, mask=mask)
     
 
 @require(
@@ -288,5 +205,11 @@ def render6(data):
     return canvas
 
 
+def render7():
+    canvas = Image.open(img_dir + '7.png')
+    return canvas
+
+
 if __name__ == '__main__':
-    pass
+    data = {'study_adjective': u'零碎', 'average_hours': 30}
+    render5(data)
