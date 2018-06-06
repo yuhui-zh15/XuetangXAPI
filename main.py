@@ -7,7 +7,7 @@ app = Flask(__name__)
          
 @app.route('/image/<userid>')
 def index(userid):
-    filename = '/home/yuhui/api/XuetangXAPI/buffer/%s.png' % (userid)
+    filename = '/home/yuhui/api/XuetangXAPI/buffer/%s.jpg' % (userid)
     if os.path.isfile(filename) == False:
         result = synth(generate(userid))
         result.save(filename)
