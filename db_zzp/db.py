@@ -51,7 +51,7 @@ def get_data2(user_id):
         return { 'user_courses': user_courses, 'category_courses': [], 'max_category': None }
 
     max_category, max_cnt = None, 0
-    for category, cnt in category2cnt.iteritems():
+    for category, cnt in category2cnt.items():
         if cnt > max_cnt:
             max_category = category
             max_cnt = cnt

@@ -3,7 +3,7 @@ def require(**fields):
     def _decorator(func):
         def _wrapper(*args, **kwargs):
             data = args[0]
-            for field, meaning in fields.iteritems():
+            for field, meaning in fields.items():
                 if field not in data:
                     raise ValueError('<%s>\n\tMissing field `%s`\n\tMeaning: %s' % (func.__name__, field, meaning))
             return func(*args, **kwargs)

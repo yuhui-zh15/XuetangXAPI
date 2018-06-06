@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image, ImageFont, ImageDraw
 from wordcloud import WordCloud
 
-from utils import require, normalized
+from render_zzp.utils import require, normalized
 
 img_dir = 'render_zzp/assets/images/'
 font_dir = 'render_zzp/assets/fonts/'
