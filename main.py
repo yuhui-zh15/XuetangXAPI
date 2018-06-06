@@ -20,7 +20,7 @@ def index(userid):
 def white(userid):
     filename = '/home/yuhui/api/XuetangXAPI/buffer/white/%s.jpg' % (userid)
     if os.path.isfile(filename) == False:
-        result = synth2.synth(synth2.generate(userid))
+        result = synth2.synth(synth2.generate(userid)).resize((750, 8400)).convert('RGB')
         result.save(filename)
     image = open(filename, 'rb')
     resp = Response(image, mimetype='image/jpeg')

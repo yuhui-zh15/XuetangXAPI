@@ -33,7 +33,7 @@ def render1(data):
     category_courses='用户选修最多的那个课程的一部分课程，用来占位，其中每个元素应当有`name`这个字段',
 )
 def render2(data):
-    scale = 5
+    scale = 2.0
     max_courses = 100
 
     frequencies = { normalized(course['name']): course['watch_time'] for course in data['user_courses'] }
@@ -178,7 +178,6 @@ def render5(data):
     margin = 20
     text_width, text_height = printer(canvas, pos, str(int(60*data['average_hours'])), 'ELEPHNT.TTF', 85)
     printer(canvas, (pos[0] + text_width + margin, pos[1]), '分钟', 'msyhl.ttc', 85)
-    canvas.save('out5.png')
     return canvas
 
 
@@ -200,7 +199,6 @@ def render6(data):
     printer(canvas, (546, 996), data['recommend_courses_names'][1], 'msyhl.ttc', 50, max_x=1284)
     printer(canvas, (546, 1405), data['recommend_courses_names'][2], 'msyhl.ttc', 50, max_x=1284)
     printer(canvas, (546, 1820), data['recommend_courses_names'][3], 'msyhl.ttc', 50, max_x=1284)
-    canvas.save('out6.png')
     return canvas
 
 
