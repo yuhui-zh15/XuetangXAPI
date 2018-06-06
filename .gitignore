@@ -4,3 +4,5 @@ data/*.csv
 render_zyh/assets/courses/*
 .DS_Store
 **.pyc
+**.psd
+**.ai
