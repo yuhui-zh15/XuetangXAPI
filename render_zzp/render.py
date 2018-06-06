@@ -8,8 +8,8 @@ from wordcloud import WordCloud
 
 from utils import require, normalized
 
-img_dir = 'assets/images/'
-font_dir = 'assets/fonts/'
+img_dir = 'render_zzp/assets/images/'
+font_dir = 'render_zzp/assets/fonts/'
 
 @require(
     year='用户注册年份',
@@ -283,21 +283,4 @@ def render6(data):
 
 
 if __name__ == '__main__':
-    data = json.load(open('data.json'))
-    render6(data)
-
-    # title = u'操作系统'
-    # render3({'max_course_name': title, 'n_hours': 123, 'total_hours': 500, 'image_file': img_dir + 'course2.jpg'})
-    # render2(data)
-    # data = {
-    #     'max_clock_interval': '3-6',
-    #     'max_clock_interval_hours': 30,
-    #     'total_hours': 100
-    # }
-    # render4(data)
-
-    # data = {
-    #     'study_adjective': u'零散',
-    #     'average_hours': 123
-    # }
-    # render5(data)
+    pass
