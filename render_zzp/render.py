@@ -10,6 +10,7 @@ from utils import require, normalized
 
 img_dir = 'render_zzp/assets/images/'
 font_dir = 'render_zzp/assets/fonts/'
+courses_dir = 'render_zyh/assets/courses/'
 
 @require(
     year='用户注册年份',
@@ -127,7 +128,7 @@ def render3(data):
     drawer.text(pos, '%d%%' % percent, font=font, fill=font_rgba)
 
     # profile
-    profile = Image.open(data['image_file'])
+    profile = Image.open(courses_dir + data['image_file'])
     pos = (96, 940)
     diameter = 1068
     width, height = profile.size
@@ -258,7 +259,7 @@ def render5(data):
     margin = 20
     text_width, _ = printer(canvas, pos, str(int(60*data['average_hours'])), 'ELEPHNT.TTF', 85)
     printer(canvas, (pos[0] + text_width + margin, pos[1]), u'分钟', 'msyhl.ttc', 85)
-    canvas.save('5.png')
+    canvas.save('out5.png')
 
 
 @require(
@@ -267,10 +268,10 @@ def render5(data):
 )
 def render6(data):
     canvas = Image.open(img_dir + '6.png')
-    course_img0 = Image.open(img_dir + data['recommend_courses_image_file'][0]).resize((620, 420))
-    course_img1 = Image.open(img_dir + data['recommend_courses_image_file'][1]).resize((620, 420))
-    course_img2 = Image.open(img_dir + data['recommend_courses_image_file'][2]).resize((620, 420))
-    course_img3 = Image.open(img_dir + data['recommend_courses_image_file'][3]).resize((620, 420))
+    course_img0 = Image.open(courses_dir + data['recommend_courses_image_file'][0]).resize((620, 420))
+    course_img1 = Image.open(courses_dir + data['recommend_courses_image_file'][1]).resize((620, 420))
+    course_img2 = Image.open(courses_dir + data['recommend_courses_image_file'][2]).resize((620, 420))
+    course_img3 = Image.open(courses_dir + data['recommend_courses_image_file'][3]).resize((620, 420))
     circlemask(course_img0, canvas, (180, 496), 172)
     circlemask(course_img1, canvas, (180, 905), 172)
     circlemask(course_img2, canvas, (180, 1317), 172)
@@ -279,7 +280,7 @@ def render6(data):
     printer(canvas, (546, 996), data['recommend_courses_names'][1], 'msyhl.ttc', 50, max_x=1284)
     printer(canvas, (546, 1405), data['recommend_courses_names'][2], 'msyhl.ttc', 50, max_x=1284)
     printer(canvas, (546, 1820), data['recommend_courses_names'][3], 'msyhl.ttc', 50, max_x=1284)
-    canvas.save('6.png')
+    canvas.save('out6.png')
 
 
 if __name__ == '__main__':
