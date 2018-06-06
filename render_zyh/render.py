@@ -105,7 +105,8 @@ def render5(data):
 
 @require(
     characteristic='用户品质',
-    recommend_courses_image_file='推荐的课的图片路径'
+    recommend_courses_image_file='推荐的课的图片路径',
+    recommend_courses_name='推荐的课的名称'
 )
 def render6(data):
     img = Image.open(img_dir + '6.png')
@@ -117,9 +118,13 @@ def render6(data):
     course_img2 = Image.open(course_dir + data['recommend_courses_image_file'][2]).resize((244, 136))
     course_img3 = Image.open(course_dir + data['recommend_courses_image_file'][3]).resize((244, 136))
     img.paste(course_img0, (67, 530))
+    typewriter(img, (67, 666), (311, 687), data['recommend_courses_name'][0], font_dir + 'HT.otf', 20, (255, 255, 255, 255), 1.5, False)
     img.paste(course_img1, (67, 690))
+    typewriter(img, (67, 826), (311, 847), data['recommend_courses_name'][1], font_dir + 'HT.otf', 20, (255, 255, 255, 255), 1.5, False)
     img.paste(course_img2, (330, 530))
+    typewriter(img, (330, 666), (574, 687), data['recommend_courses_name'][2], font_dir + 'HT.otf', 20, (255, 255, 255, 255), 1.5, False)
     img.paste(course_img3, (331, 691))
+    typewriter(img, (331, 827), (575, 848), data['recommend_courses_name'][3], font_dir + 'HT.otf', 20, (255, 255, 255, 255), 1.5, False)
     return img
 
 
