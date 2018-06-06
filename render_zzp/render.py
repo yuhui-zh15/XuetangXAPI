@@ -33,7 +33,7 @@ def render1(data):
     category_courses='用户选修最多的那个课程的一部分课程，用来占位，其中每个元素应当有`name`这个字段',
 )
 def render2(data):
-    scale = 1
+    scale = 2.0
     max_courses = 100
 
     frequencies = { normalized(course['name']): course['watch_time'] for course in data['user_courses'] }
