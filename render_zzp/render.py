@@ -22,9 +22,9 @@ courses_dir = 'render_zyh/assets/courses/'
 )
 def render1(data):
     canvas = Image.open(img_dir + '1.png')
-    printer(canvas, (620, 327), '%04d-%02d-%02d' % (data['year'], data['month'], data['day']), 'ELEPHNT.TTF', 80)
-    printer(canvas, (946, 483), '%3d' % data['n_hours'], 'ELEPHNT.TTF', 80)
-    printer(canvas, (740, 637), '%3d' % data['n_courses'], 'ELEPHNT.TTF', 80)
+    printer(canvas, (560, 317), '%04d-%02d-%02d' % (data['year'], data['month'], data['day']), 'ELEPHNT.TTF', 100)
+    printer(canvas, (946, 473), '%3d' % data['n_hours'], 'ELEPHNT.TTF', 100)
+    printer(canvas, (740, 617), '%3d' % data['n_courses'], 'ELEPHNT.TTF', 100)
     return canvas
 
 
@@ -193,7 +193,7 @@ def render6(data):
     course_img1 = Image.open(courses_dir + data['recommend_courses_image_file'][1]).resize((620, 420))
     course_img2 = Image.open(courses_dir + data['recommend_courses_image_file'][2]).resize((620, 420))
     course_img3 = Image.open(courses_dir + data['recommend_courses_image_file'][3]).resize((620, 420))
-    circlemask(course_img0, canvas, (180, 496), 172)
+    circlemask(course_img0, canvas, (180, 494), 172)
     circlemask(course_img1, canvas, (180, 905), 172)
     circlemask(course_img2, canvas, (180, 1317), 172)
     circlemask(course_img3, canvas, (180, 1728), 172)

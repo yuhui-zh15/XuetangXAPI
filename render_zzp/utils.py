@@ -22,6 +22,7 @@ def normalized(name):
     for punct in puncts:
         if punct in name:
             return name[:name.index(punct)]
+    name = name.replace('《', '').replace('》', '')
     return name.strip()
 
 

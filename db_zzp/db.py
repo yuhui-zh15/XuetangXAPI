@@ -2,6 +2,7 @@
 import re
 import json
 import codecs
+import random
 from collections import defaultdict
 from html.parser import HTMLParser  # PY3
 
@@ -164,6 +165,7 @@ def get_data6(user_id):
     else: category_courses = record['courses']
 
     # <TODO> better course recommendation
+    random.shuffle(category_courses)
     recommend_courses_image_file = [course['image'] for course in category_courses]
     recommend_courses_names = [course['name'] for course in category_courses]
 
