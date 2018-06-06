@@ -44,20 +44,17 @@ def get_data2(user_id):
         for category in course['category']:
             category2cnt[category] += 1
 
-    if len(category2cnt) == 0:
-        return { 'user_courses': user_courses, 'category_courses': [], 'max_category': None }
-
     max_category, max_cnt = None, 0
     for category, cnt in category2cnt.items():
         if cnt > max_cnt:
             max_category = category
             max_cnt = cnt
 
-    record = table_category.find_one({'category': max_category.encode('utf-8')})
-    if record is None:
-        return { 'user_courses': user_courses, 'category_courses': [], 'max_category': max_category }
+    record = table_category.find_one({'category': max_category})
+    if record is None: category_courses = []
+    else: category_courses = record['courses']
 
-    return {'user_courses': user_courses, 'category_courses': record['courses'], 'max_category': max_category}
+    return {'user_courses': user_courses, 'category_courses': category_courses, 'max_category': max_category, 'max_cnt': max_cnt }
 
 
 def get_data3(user_id):
