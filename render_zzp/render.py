@@ -230,8 +230,8 @@ def printer(img, pos, text, font_name, font_size, max_x=0):
             cursor = [pos[0], cursor[1] + text_size[1] + margin]
         drawer.text(cursor, char, font=font, fill=font_rgba)
         cursor[0] += text_size[0]
-        text_width = max(text_width, cursor[0])
-        text_height = max(text_height, cursor[1] + text_size[1])
+        text_width = max(text_width, cursor[0]) - pos[0]
+        text_height = max(text_height, cursor[1] + text_size[1]) - pos[1]
 
     return text_width, text_height
 
