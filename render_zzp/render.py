@@ -41,6 +41,7 @@ def render1(data):
     drawer.text((pos_x, pos_y), '%2d' % n_courses, font=font, fill=font_rgba)
 
     img.save('out1.png')
+    return img
 
 
 @require(
@@ -87,6 +88,7 @@ def render2(data):
     drawer.text(pos, '%3d' % n_courses, font=font, fill=font_rgba)
 
     canvas.save('out2.png')
+    return canvas
 
 
 @require(
@@ -149,7 +151,7 @@ def render3(data):
     play = Image.open(img_dir + 'play.png')
     canvas.paste(play, (360, 1190), mask=play)
     canvas.save('out3.png')
-
+    return canvas
 
 @require(
     max_clock_interval='用户学习的最长时间区间', 
@@ -210,6 +212,7 @@ def render4(data):
     canvas.paste(clock, pos)
 
     canvas.save('out4.png')
+    return canvas
 
 
 def printer(img, pos, text, font_name, font_size, max_x=0):
@@ -260,6 +263,7 @@ def render5(data):
     text_width, _ = printer(canvas, pos, str(int(60*data['average_hours'])), 'ELEPHNT.TTF', 85)
     printer(canvas, (pos[0] + text_width + margin, pos[1]), u'分钟', 'msyhl.ttc', 85)
     canvas.save('out5.png')
+    return canvas
 
 
 @require(
@@ -281,6 +285,7 @@ def render6(data):
     printer(canvas, (546, 1405), data['recommend_courses_names'][2], 'msyhl.ttc', 50, max_x=1284)
     printer(canvas, (546, 1820), data['recommend_courses_names'][3], 'msyhl.ttc', 50, max_x=1284)
     canvas.save('out6.png')
+    return canvas
 
 
 if __name__ == '__main__':
