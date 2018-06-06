@@ -22,9 +22,9 @@ courses_dir = 'render_zyh/assets/courses/'
 )
 def render1(data):
     canvas = Image.open(img_dir + '1.png')
-    printer(canvas, (699, 327), '%04d-%02d-%02d' % (data['year'], data['month'], data['day']), 'ELEPHNT.TTF', 80)
-    printer(canvas, (1032, 483), '%3d' % data['n_hours'], 'ELEPHNT.TTF', 80)
-    printer(canvas, (847, 637), '%2d' % data['n_courses'], 'ELEPHNT.TTF', 80)
+    printer(canvas, (620, 327), '%04d-%02d-%02d' % (data['year'], data['month'], data['day']), 'ELEPHNT.TTF', 80)
+    printer(canvas, (946, 483), '%3d' % data['n_hours'], 'ELEPHNT.TTF', 80)
+    printer(canvas, (740, 637), '%3d' % data['n_courses'], 'ELEPHNT.TTF', 80)
     return canvas
 
 
@@ -210,5 +210,6 @@ def render7():
 
 
 if __name__ == '__main__':
-    data = {'study_adjective': u'零碎', 'average_hours': 30}
-    render5(data)
+    data = {'year': 2013, 'month': 10, 'day': 13, 'n_hours': 118, 'n_courses': 182}
+    img = render1(data)
+    img.save('out1.png')
