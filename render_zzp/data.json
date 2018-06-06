@@ -1,290 +1,3337 @@
 {
-    "recommend_courses_names": [
-        "视觉传达设计思维与方法",
-        "适老居住空间与环境设计",
-        "新闻摄影",
-        "教你成为歌唱达人"
-    ],
-    "recommend_courses_image_file": [
-        "92.jpg",
-        "7375.png",
-        "256.png",
-        "321.jpg",
-        "431.jpg",
-        "472.jpg",
-        "8584.jpg",
-        "550.jpg",
-        "579.png",
-        "728.png",
-        "751.jpg",
-        "13853.jpg",
-        "784.jpg",
-        "790.jpg",
-        "3311.jpg",
-        "986.jpg",
-        "1101.jpg",
-        "15856.jpg",
-        "203.jpg",
-        "1197.jpg",
-        "1648.jpg",
-        "2993.jpg",
-        "1751.jpg",
-        "1778.jpg",
-        "11980.jpg",
-        "2198.jpg",
-        "11320.png",
-        "2243.png",
-        "2271.jpg",
-        "2573.jpg",
-        "2643.jpg",
-        "15131.jpg",
-        "16298.jpg",
-        "14122.jpg",
-        "2768.png",
-        "8670.jpg",
-        "2898.png",
-        "2909.jpg",
-        "2918.jpg",
-        "2922.jpg",
-        "2964.png",
-        "2992.png",
-        "3016.jpg",
-        "3017.jpg",
-        "3018.jpg",
-        "3042.jpg",
-        "3098.jpg",
-        "3103.png",
-        "3144.png",
-        "3153.png",
-        "8729.jpg",
-        null,
-        "14253.jpg",
-        "8765.jpg",
-        "4210.png",
-        "3564.jpg",
-        "3620.jpg",
-        "3691.jpg",
-        "3853.jpg",
-        "3884.jpg",
-        "3885.png",
-        "3902.jpg",
-        "3904.jpg",
-        "3986.jpg",
-        "4118.png",
-        "8690.jpg",
-        "4147.jpg",
-        "4153.jpg",
-        "4196.jpg",
-        "9110.jpg",
-        "4369.jpg",
-        "4383.jpg",
-        "4402.jpg",
-        "4420.jpg",
-        "4468.jpg",
-        "14267.jpg",
-        null,
-        "11738.jpg",
-        "7547.png",
-        "4794.jpg",
-        "4813.jpg",
-        "4820.png",
-        "4983.jpg",
-        "5060.jpg",
-        "5082.jpg",
-        "9041.jpg",
-        "5150.jpg",
-        "5157.png",
-        "5164.jpg",
-        "9065.jpg",
-        "5319.jpg",
-        "5320.jpg",
-        "12914.jpg",
-        "5471.jpg",
-        "5536.jpg",
-        "5582.jpg",
-        "5661.png",
-        "1266.jpg",
-        "5765.png",
-        "5867.jpg",
-        "3674.jpg",
-        "5983.jpg",
-        "6000.jpg",
-        "6066.png",
-        "990.PNG",
-        null,
-        "4804.jpg",
-        "5795.jpg",
-        "6549.jpg",
-        "15670.jpg",
-        "6571.png",
-        "6573.jpg",
-        "6612.jpg",
-        "6633.jpg",
-        "6689.jpg",
-        "6699.jpg",
-        "6713.jpg",
-        "6722.jpg",
-        "12829.jpg",
-        "6752.jpg",
-        "6821.jpg",
-        "6891.jpg",
-        "6931.png",
-        "7176.jpg",
-        "15961.png",
-        "7291.jpg",
-        "7336.jpg",
-        "9391.jpg",
-        "7412.jpg",
-        "7513.jpg",
-        "7514.jpg",
-        "2049.jpg",
-        "7524.png",
-        "14994.jpg",
-        "7760.jpg",
-        "179.png",
-        "7953.jpg",
-        "15055.jpg",
-        "15371.jpg",
-        "8072.jpg",
-        "8097.jpg",
-        "295.jpg",
-        "7746.jpg",
-        null,
-        "1397.png",
-        "8446.jpg",
-        "4869.jpg",
-        "9233.jpg",
-        "8651.jpg",
-        "8880.jpg",
-        "8882.png",
-        "4503.png",
-        "8968.jpg",
-        "15243.jpg",
-        "9090.jpg",
-        "4217.jpg",
-        "9200.jpg",
-        "9204.jpg",
-        "9264.jpg",
-        "9382.png",
-        "9740.jpg",
-        "1891.jpg",
-        "9497.jpg",
-        "9523.png",
-        "9607.png",
-        "8650.jpg",
-        "9734.jpg",
-        "9741.jpg",
-        "9848.png",
-        "9881.jpg",
-        "9904.jpg",
-        "10002.jpg",
-        "7525.jpg",
-        "10206.jpg",
-        "10207.jpg",
-        "5093.png",
-        "10254.jpg",
-        "10270.jpg",
-        "10279.jpg",
-        "7213.png",
-        "10352.png",
-        null,
-        "10369.png",
-        "15487.jpg",
-        "10495.jpg",
-        "10508.png",
-        "4470.jpg",
-        null,
-        "7290.jpg",
-        "10820.jpg",
-        "8479.png",
-        "10972.jpg",
-        "10977.jpg",
-        "11106.jpg",
-        "1573.png",
-        "2080.jpg",
-        "11361.jpg",
-        "11409.jpg",
-        "11491.jpg",
-        "11557.png",
-        "11619.jpg",
-        "12287.png",
-        "11790.jpg",
-        "11819.jpg",
-        "11841.jpg",
-        "5447.png",
-        "11964.jpg",
-        "12031.jpg",
-        "6588.jpg",
-        "1387.jpg",
-        "12219.jpg",
-        "12348.jpg",
-        "12405.jpg",
-        "12418.jpg",
-        "200.jpg",
-        "12668.jpg",
-        "10429.png",
-        "12957.jpg",
-        "37.jpg",
-        "2158.png",
-        "13235.jpg",
-        "13238.jpg",
-        "13258.jpg",
-        "13284.jpg",
-        "13304.jpg",
-        "13369.jpg",
-        "13479.jpg",
-        "4989.jpg",
-        "6997.png",
-        "1480.jpg",
-        "13982.jpg",
-        "14127.jpg",
-        "14252.jpg",
-        "14279.jpg",
-        "2585.jpg",
-        "14377.jpg",
-        "14646.jpg",
-        "15366.jpg",
-        "15793.jpg",
-        "15040.jpg",
-        "15048.jpg",
-        "15050.jpg",
-        "15052.jpg",
-        "15058.png",
-        "8362.jpg",
-        "8843.jpg",
-        "15222.jpg",
-        "15237.png",
-        "4113.jpg",
-        "15390.jpg",
-        "15400.png",
-        "15403.png",
-        "15446.jpg",
-        "15485.jpg",
-        "15498.jpg",
-        "15555.png",
-        null,
-        "15795.png",
-        "16391.png",
-        "15798.png",
-        "13324.jpg",
-        "7824.JPG",
-        "16047.jpg",
-        "16079.jpg",
-        "16083.jpg",
-        "16104.png",
-        "16234.jpg",
-        "1594.jpg",
-        "16277.png",
-        "16286.jpg",
-        "16480.png",
-        "16439.png",
-        "16458.jpg"
-    ],
-    "characteristic": [
-        "聪明勤奋",
-        "严于律己",
-        "热爱思考",
-        "热爱文学",
-        "热爱艺术"
-    ]
+  "max_cnt": 70,
+  "category_courses": [
+    {
+      "course_id": "UC_BerkeleyX/BJC.1x/_",
+      "name": "计算的乐与美 (计算机科学基础) 第一部分",
+      "image": "18.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+34100325X+sp",
+      "name": "软件工程(2016春)",
+      "image": "87.jpg"
+    },
+    {
+      "course_id": "Microsoft/INF201x/_",
+      "name": "Windows PowerShell基础",
+      "image": "184.jpg"
+    },
+    {
+      "course_id": "course-v1:SCUT+145223+sp",
+      "name": "大学计算机基础",
+      "image": "283.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740123X+2017_T1",
+      "name": "Java程序设计（2017春）",
+      "image": "302.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740123X+2017_T2",
+      "name": "Java程序设计（2017秋）",
+      "image": "305.jpg"
+    },
+    {
+      "course_id": "PekingX/532001x/3T2014",
+      "name": "程序设计基础",
+      "image": "351.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+60240202X_p2+sp",
+      "name": "分布式计算与数据管理（微慕课）",
+      "image": "355.png"
+    },
+    {
+      "course_id": "course-v1:UBCx+SPD1x+2T2015",
+      "name": "系统程序设计——第1部分：核心方法",
+      "image": "16142.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240184+2015_T2",
+      "name": "数据结构(2015秋)",
+      "image": "422.jpg"
+    },
+    {
+      "course_id": "course-v1:MicrosoftX+Microsoft102+sp",
+      "name": "微软--计算机视觉论文分享课",
+      "image": "437.jpg"
+    },
+    {
+      "course_id": "UC_BerkeleyX/LUCS.1x/_",
+      "name": "AP ® 计算机科学 A — 提高课程 第一部分",
+      "image": "2878.jpg"
+    },
+    {
+      "course_id": "course-v1:ETHx+AMRx+1T2015",
+      "name": "自主移动机器人",
+      "image": "510.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DEV201x+2015_T4",
+      "name": "TypeScript导论",
+      "image": "513.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+60240013X+2016_T1",
+      "name": "组合数学（2016春）",
+      "image": "534.png"
+    },
+    {
+      "course_id": "course-v1:IEEEx+MTX.1x+2015Q3",
+      "name": "智慧城市的衡量参数导论",
+      "image": "540.jpg"
+    },
+    {
+      "course_id": "TsinghuaX/30240184X/2014_T2",
+      "name": "数据结构",
+      "image": "576.jpg"
+    },
+    {
+      "course_id": "TsinghuaX/70240183x/2015_T2",
+      "name": "计算几何",
+      "image": "584.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+64100033X+2016_TS",
+      "name": "大数据系统基础（2016暑期班）",
+      "image": "585.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+INF201.13x+1T2016",
+      "name": "云计算入门",
+      "image": "605.png"
+    },
+    {
+      "course_id": "TsinghuaX/00740113X/2015_T2",
+      "name": "VC++面向对象与可视化程序设计",
+      "image": "665.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+CLD1003x+1T2016",
+      "name": "Office 365：利用实践实验室管理身份与服务",
+      "image": "673.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043_1x+2017_T2",
+      "name": "C++语言程序设计基础 (2017秋)",
+      "image": "772.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740113_2X+sp",
+      "name": "VC++面向对象与可视化程序设计（下）：MFC编程基础 (自主模式)",
+      "image": "3433.jpg"
+    },
+    {
+      "course_id": "course-v1:NPUX+2016001+sp",
+      "name": "软件测试（自主模式）",
+      "image": null
+    },
+    {
+      "course_id": "course-v1:ustcX+LB05203_a+2018_T1",
+      "name": "文献管理与信息分析（2018春）",
+      "image": "856.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+70240183x+sp",
+      "name": "计算几何（废弃）",
+      "image": "890.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DEV202.3x+2015_T4",
+      "name": "用Microsoft Azure开发云应用－第三部分",
+      "image": "5608.jpg"
+    },
+    {
+      "course_id": "LinuxFoundationX/LFS101x/_",
+      "name": "Linux 导论",
+      "image": "967.jpg"
+    },
+    {
+      "course_id": "course-v1:KMUSTX+3102003+2017_T2",
+      "name": "C君带你玩编程（2017秋）",
+      "image": "968.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+34100325X+2016_T1",
+      "name": "软件工程(2016春)",
+      "image": "1007.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+60700052X+2017_T2",
+      "name": "数据科学导论",
+      "image": "1054.jpg"
+    },
+    {
+      "course_id": "course-v1:JSU+JSU001+2016_T2",
+      "name": "移动互联网开发（2018春）",
+      "image": "1104.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240184_2X+sp",
+      "name": "数据结构(下)(自主模式)",
+      "image": "1106.jpg"
+    },
+    {
+      "course_id": "ETHx/CAMSx/_",
+      "name": "计算：艺术、魔法、科学",
+      "image": "5896.png"
+    },
+    {
+      "course_id": "course-v1:CAU+08112500x+sp",
+      "name": "大学计算机教程（自主模式）",
+      "image": "1176.jpg"
+    },
+    {
+      "course_id": "course-v1:UC_BerkeleyX+CS_184_1x+2015_T3",
+      "name": "计算机图形学导论",
+      "image": "1190.jpg"
+    },
+    {
+      "course_id": "course-v1:UC_BerkeleyX+CS_184_1x+2015_T1",
+      "name": "计算机图形学导论",
+      "image": "1191.jpg"
+    },
+    {
+      "course_id": "course-v1:WHU+0800773+_",
+      "name": "多媒体技术",
+      "image": "1212.jpg"
+    },
+    {
+      "course_id": "TsinghuaX/30240243X/2015_T1",
+      "name": "操作系统",
+      "image": "1257.jpg"
+    },
+    {
+      "course_id": "course-v1:SICNU+231001+sp",
+      "name": "信息素养与终身学习（自主模式）",
+      "image": "1304.png"
+    },
+    {
+      "course_id": "SDUx/131000110/2015_T1",
+      "name": "大学计算机——计算思维的视角",
+      "image": "1338.jpg"
+    },
+    {
+      "course_id": "course-v1:IEEEx+CloudIntro.x+2015T2",
+      "name": "云计算导论",
+      "image": "1345.png"
+    },
+    {
+      "course_id": "course-v1:LinuxFoundationX+LFS101x.2+1T2015",
+      "name": "Linux导论",
+      "image": "8426.jpg"
+    },
+    {
+      "course_id": "course-v1:NTHU+CS12500+2017_T1",
+      "name": "数据结构",
+      "image": "1423.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+80240372X+sp",
+      "name": "数据挖掘：理论与算法（自主模式）",
+      "image": "1466.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+INF201.12x+1T2016",
+      "name": "Windows Server导论",
+      "image": "1482.png"
+    },
+    {
+      "course_id": "course-v1:Amazon+20170727X2+2017_T1",
+      "name": "AWS 云服务部署和迁移课程（进阶课程）",
+      "image": "1567.jpg"
+    },
+    {
+      "course_id": "course-v1:TianJinU+2017011502X+2017_T1",
+      "name": "数据挖掘",
+      "image": "1593.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+80240372X+2018_T1",
+      "name": "数据挖掘：理论与算法（2018春）",
+      "image": "1712.jpg"
+    },
+    {
+      "course_id": "course-v1:HITx+13SC03100710_1x+2017_T1",
+      "name": "数据库系统（上）：模型与语言",
+      "image": "14025.png"
+    },
+    {
+      "course_id": "course-v1:Microsoft+INF1002x+3T2015",
+      "name": "微软企业移动套件与在线实验室",
+      "image": "1873.png"
+    },
+    {
+      "course_id": "course-v1:BaiZhiedu+BaiZhiedu02+2017_T1",
+      "name": "编程进阶 —— JavaEE 程序设计",
+      "image": "2050.png"
+    },
+    {
+      "course_id": "course-v1:MicrosoftX+Microsoft101+2018_T1",
+      "name": "微软亚洲研究院大数据系列讲座（2018春）",
+      "image": null
+    },
+    {
+      "course_id": "TsinghuaX/20740042X/2015_T2",
+      "name": "计算机文化基础",
+      "image": "13457.jpg"
+    },
+    {
+      "course_id": "course-v1:HUST+603+_",
+      "name": "数字信号分析理论与实践",
+      "image": "2248.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240532X+sp",
+      "name": "面向对象程序设计（C++）（自主模式）",
+      "image": "2298.jpeg"
+    },
+    {
+      "course_id": "course-v1:UBCx+SPD2x+2T2015",
+      "name": "系统程序设计——第2部分：任意大小的数据",
+      "image": "2325.png"
+    },
+    {
+      "course_id": "TsinghuaX/00740043_2X/2015_T1",
+      "name": "C++语言程序设计进阶",
+      "image": "9763.jpg"
+    },
+    {
+      "course_id": "CAU/08110140/2015_T1",
+      "name": "C程序设计案例教程",
+      "image": "14866.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240184_p2+sp",
+      "name": "数据结构-向量（微慕课）",
+      "image": "2498.jpg"
+    },
+    {
+      "course_id": "Microsoft/CLD201x/_",
+      "name": "Office 365 APIs入门",
+      "image": "2503.jpg"
+    },
+    {
+      "course_id": "course-v1:UPValenciaX+ISC101.1x+3T2015",
+      "name": "信息系统和计算机应用程序（第1部分）：信息技术",
+      "image": "2563.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043X_2015_T2+sp",
+      "name": "C++语言程序设计基础 (自主模式)",
+      "image": "2603.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+64100033X+2018_T1",
+      "name": "大数据系统基础（2018春）",
+      "image": "2717.jpg"
+    },
+    {
+      "course_id": "course-v1:SICT+2017092601+sp",
+      "name": "智能设备应用开发（基于Android平台）（自主模式）",
+      "image": "224.png"
+    },
+    {
+      "course_id": "DelftX/EconSec101x/_",
+      "name": "经济学中的网络安全",
+      "image": "2777.gif"
+    },
+    {
+      "course_id": "course-v1:WUT+1022817X+sp",
+      "name": "互联网大规模数据分析技术（自主模式）",
+      "image": "2814.png"
+    },
+    {
+      "course_id": "course-v1:NBCC+NBCC000201+_sp",
+      "name": "Linux系统管理（自主模式）",
+      "image": "11438.png"
+    },
+    {
+      "course_id": "course-v1:PekingX+04830260x+3T2015",
+      "name": "理论计算机科学基础",
+      "image": "3095.jpg"
+    },
+    {
+      "course_id": "course-v1:Amazon+Amazon0727X1+2017_T1",
+      "name": "AWS人工智能系列课程（进阶课程）",
+      "image": "3140.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DEV203x+2015_T4",
+      "name": "Bootstrap开源工具包介绍－入门教程",
+      "image": "3201.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+70240183X+2017_T1",
+      "name": "计算几何（2017春）",
+      "image": "3249.jpg"
+    },
+    {
+      "course_id": "course-v1:UST+UST001+2016_T1",
+      "name": "网络技术与应用",
+      "image": "7300.jpg"
+    },
+    {
+      "course_id": "MITx/6_00_1x/2014_T2",
+      "name": "计算机科学和Python编程导论",
+      "image": "3273.jpg"
+    },
+    {
+      "course_id": "TsinghuaX/30240184_2X/_",
+      "name": "数据结构（下）",
+      "image": "3341.jpg"
+    },
+    {
+      "course_id": "course-v1:HUBU+2017073101x+sp",
+      "name": "信号与线性系统（自主模式）",
+      "image": "3404.jpg"
+    },
+    {
+      "course_id": "HarvardX/CS50x3/2015",
+      "name": "计算机科学导论",
+      "image": "3419.png"
+    },
+    {
+      "course_id": "course-v1:HarveyMuddX+CS002x+2T2015",
+      "name": "Scratch编程",
+      "image": "3444.png"
+    },
+    {
+      "course_id": "RiceX/ELEC301.2x/2015Q3",
+      "name": "离散时间信号与系统，第二部分：频域",
+      "image": "3450.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043X+2016_T1",
+      "name": "C++语言程序设计基础 (2016春)",
+      "image": "3512.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043X+2016_TS",
+      "name": "C++语言程序设计基础 (2016暑期班)",
+      "image": "3531.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740123X+2018_T1",
+      "name": "Java程序设计（2018春）",
+      "image": "12834.jpg"
+    },
+    {
+      "course_id": "course-v1:MITx+6_00_1x+2015_T2",
+      "name": "计算机科学和Python编程导论（2016暑期班）",
+      "image": "15331.jpg"
+    },
+    {
+      "course_id": "TsinghuaX/20740084X/2015_T2",
+      "name": "基于Linux的C++（2015秋）",
+      "image": "3599.jpg"
+    },
+    {
+      "course_id": "PekingX/04830260x/_",
+      "name": "理论计算机科学基础I",
+      "image": "3609.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+70240183X+2016_T11",
+      "name": "计算几何（2016春）",
+      "image": "3722.jpg"
+    },
+    {
+      "course_id": "course-v1:HUST+603+sp",
+      "name": "数字信号分析理论与实践（自主模式）",
+      "image": "3762.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043_2x+2017_T1",
+      "name": "C++语言程序设计进阶 (2017春)",
+      "image": "3804.jpg"
+    },
+    {
+      "course_id": "Cooper_Union/CS.1x/_",
+      "name": "计算机科学 第一部分",
+      "image": "8831.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240233X_2015_T2+2015_T2",
+      "name": "程序设计基础（2015年秋）",
+      "image": "3835.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+THU201606X+2016_T2",
+      "name": "高级大数据系统",
+      "image": "3848.jpg"
+    },
+    {
+      "course_id": "course-v1:SDUx+131000110_p2+sp",
+      "name": "初识计算机网络（微慕课）",
+      "image": "3873.png"
+    },
+    {
+      "course_id": "course-v1:Microsoft+CLD204x+1T2016",
+      "name": "Office 365中的一致性：eDiscovery",
+      "image": "12120.png"
+    },
+    {
+      "course_id": "course-v1:Microsoft+CLD203x+1T2016",
+      "name": "Office 365：管理身份与服务",
+      "image": "4006.png"
+    },
+    {
+      "course_id": "course-v1:Microsoft+CLD201x+2015_T4",
+      "name": "Office 365应用程序接口导论",
+      "image": "3359.jpg"
+    },
+    {
+      "course_id": "IITBombayX/CS101.1x/_",
+      "name": "计算机编程导论，第一部分",
+      "image": "4180.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740123_X+sp",
+      "name": "Java程序设计（自主模式）",
+      "image": "4296.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240532X+2016_T1",
+      "name": "面向对象程序设计（C++）",
+      "image": "4365.jpg"
+    },
+    {
+      "course_id": "HITx/GO90300700/2014_T2",
+      "name": "大数据算法",
+      "image": "4386.jpg"
+    },
+    {
+      "course_id": "course-v1:UPValenciaX+ISC101.4x+3T2015",
+      "name": "信息系统和计算机应用程序（第4部分）：计算机程序",
+      "image": "15511.png"
+    },
+    {
+      "course_id": "Microsoft/DAT201x/_",
+      "name": "Transact­SQL查询",
+      "image": "14469.jpg"
+    },
+    {
+      "course_id": "course-v1:PekingX+00330280x+2015T1",
+      "name": "魅力机器人 | The Fascinating World of Robots and Robotics",
+      "image": "4490.jpg"
+    },
+    {
+      "course_id": "course-v1:CAU+08110140_2x+2016_T1",
+      "name": "C程序设计案例教程（进阶）（2016春季）",
+      "image": "4514.jpg"
+    },
+    {
+      "course_id": "course-v1:SPI+20170828005x+sp",
+      "name": "计算机应用基础（自主模式）",
+      "image": "3456.png"
+    },
+    {
+      "course_id": "course-v1:HEBUT+20170617001+sp",
+      "name": "Office办公软件应用（自主模式）",
+      "image": "4660.png"
+    },
+    {
+      "course_id": "UTArlingtonX/LINK5.10x/_",
+      "name": "数据、分析法与学习",
+      "image": "785.jpg"
+    },
+    {
+      "course_id": "UC_BerkeleyX/CS169.2x/_",
+      "name": "软件即服务 (SaaS) - 第 2 部分",
+      "image": "4720.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DEV206.1x+3T2015",
+      "name": "XAML导论及应用开发",
+      "image": "4767.png"
+    },
+    {
+      "course_id": "EPFLx/BIO465_1x/_",
+      "name": "神经元动力学——单个神经元的计算神经科学",
+      "image": "4913.jpg"
+    },
+    {
+      "course_id": "CaltechX/CS1156x/_",
+      "name": "从数据中学习",
+      "image": "6319.jpg"
+    },
+    {
+      "course_id": "MITx/6_00_2x/2014_T2",
+      "name": "计算思维和数据科学导论",
+      "image": "5053.jpg"
+    },
+    {
+      "course_id": "course-v1:UST+UST001+_",
+      "name": "网络技术与应用",
+      "image": "5079.jpg"
+    },
+    {
+      "course_id": "course-v1:LinuxFoundationX+LFS201x+2T2015",
+      "name": "Linux系统管理概要",
+      "image": "5083.jpg"
+    },
+    {
+      "course_id": "CAU/08112500x/2015_T2",
+      "name": "大学计算机教程",
+      "image": "3544.jpg"
+    },
+    {
+      "course_id": "course-v1:UTAx+CSE1309x+2016T1",
+      "name": "学习Python编程",
+      "image": "14569.png"
+    },
+    {
+      "course_id": "HarveyMuddX/CS005x/2T2015",
+      "name": "人人都能学计算机：计算机科学入门与Python编程",
+      "image": "15170.png"
+    },
+    {
+      "course_id": "course-v1:Amazon+20170721X+2017_SP",
+      "name": "AWS 云计算培训课程-云计算解决方案架构师之路（进阶课程）",
+      "image": "5229.jpg"
+    },
+    {
+      "course_id": "course-v1:USTC+USTC2006001+sp",
+      "name": "软件设计模式（自主模式）",
+      "image": "5283.png"
+    },
+    {
+      "course_id": "course-v1:WUT+WUT2016001+sp",
+      "name": "网络、群体与市场（自主模式）",
+      "image": "5364.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240243X+2016_T1",
+      "name": "操作系统 (2016春)",
+      "image": "5390.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740113X_2015_T2+2015_T2",
+      "name": "VC++面向对象与可视化程序设计 (2015年秋)",
+      "image": null
+    },
+    {
+      "course_id": "UC_BerkeleyX/LUCS.3x/_",
+      "name": "AP ® 计算机科学 A — 提高课程 第三部分",
+      "image": "11862.jpg"
+    },
+    {
+      "course_id": "RiceX/ELEC301x_/2015Q3",
+      "name": "离散时间信号与系统，第一部分：时间区间",
+      "image": "5449.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+64100033X+2017_T2",
+      "name": "大数据系统基础（2017秋）",
+      "image": "5562.jpg"
+    },
+    {
+      "course_id": "course-v1:HITx+13SC03100710_2x+2017_T1",
+      "name": "数据库系统（中）：建模与设计",
+      "image": "5651.png"
+    },
+    {
+      "course_id": "course-v1:TianJinU+2017011503X+2017_T1",
+      "name": "计算成像与视觉",
+      "image": "5711.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+70230063X+sp",
+      "name": "应用信息论基础（自主模式）",
+      "image": "1483.png"
+    },
+    {
+      "course_id": "course-v1:SZIIT+9902053+sp",
+      "name": "网页创意与艺术设计（自主模式）",
+      "image": "5763.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043_1x+2017_T1",
+      "name": "C++语言程序设计基础 (2017春)",
+      "image": "4029.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240243X_2015_T2+2015_T2",
+      "name": "操作系统 (2015秋)",
+      "image": "5839.jpg"
+    },
+    {
+      "course_id": "CaltechX/Ay1001x/_",
+      "name": "演变中的宇宙",
+      "image": "5885.jpg"
+    },
+    {
+      "course_id": "UC_BerkeleyX/CS169_1x_1/2014_T1",
+      "name": "云计算与软件工程 · 第 I 部分",
+      "image": "6006.jpg"
+    },
+    {
+      "course_id": "course-v1:HITx+13SC03100710_2x+sp",
+      "name": "数据库系统（中）：建模与设计(自主模式)",
+      "image": "14724.png"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DAT202.1x+1T2016",
+      "name": "运用Azure HDInsight中的Hadoop处理大数据",
+      "image": "6101.png"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DAT201x+2015_T4",
+      "name": "Transact-SQL数据查询",
+      "image": "6196.jpg"
+    },
+    {
+      "course_id": "course-v1:SCUT+145055+sp",
+      "name": "数据结构（Data Structures）（自主模式）",
+      "image": "6213.jpg"
+    },
+    {
+      "course_id": "course-v1:GIT+0600000050+2018_T1",
+      "name": "C语言程序设计基础（2018春）",
+      "image": "6334.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043_2X+2016_T1",
+      "name": "C++语言程序设计进阶 (2016春)",
+      "image": "6354.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240184_p1+sp",
+      "name": "数据结构-算法基础（微慕课）",
+      "image": "6397.jpg"
+    },
+    {
+      "course_id": "TsinghuaX/THUSEM010/_",
+      "name": "大数据与物联网",
+      "image": null
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+34100333+2018_T1",
+      "name": "软件理论基础",
+      "image": "6522.png"
+    },
+    {
+      "course_id": "LouvainX/Louv1.2x/_",
+      "name": "计算机编程的范例——抽象概念和并发性",
+      "image": "6564.jpg"
+    },
+    {
+      "course_id": "SCUT/145251/2015_T1",
+      "name": "JavaEE软件设计",
+      "image": "6631.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043_2x+2017_T2",
+      "name": "C++语言程序设计进阶 (2017秋)",
+      "image": "6649.jpg"
+    },
+    {
+      "course_id": "course-v1:MicrosoftX+Microsoft101+sp",
+      "name": "微软亚洲研究院大数据系列讲座（自主模式）",
+      "image": "6685.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+34100325_X+sp",
+      "name": "软件工程（自主模式）",
+      "image": "6730.jpg"
+    },
+    {
+      "course_id": "course-v1:organizaionlkk+luokeke+2017_t1",
+      "name": "用户体验设计师（UED）微学位",
+      "image": "6734.jpg"
+    },
+    {
+      "course_id": "course-v1:ustcX+LB05203_a+2017_T1",
+      "name": "文献管理与信息分析（2017春）",
+      "image": "6743.png"
+    },
+    {
+      "course_id": "course-v1:ustcX+LB05203_a+2017_T2",
+      "name": "文献管理与信息分析（2017秋）",
+      "image": "6744.jpg"
+    },
+    {
+      "course_id": "TsinghuaX/60240013X/_",
+      "name": "组合数学",
+      "image": "6803.jpg"
+    },
+    {
+      "course_id": "TsinghuaX/60240013_2014X/2014_T2",
+      "name": "组合数学（2014秋）",
+      "image": "6816.jpg"
+    },
+    {
+      "course_id": "course-v1:WUT+1022817X+2018_T1",
+      "name": "互联网大规模数据分析技术（2018春）",
+      "image": "6832.png"
+    },
+    {
+      "course_id": "Microsoft/DEV203x/_",
+      "name": "Bootstrap入门教程",
+      "image": "6897.jpg"
+    },
+    {
+      "course_id": "course-v1:NPUX+2016001+2016_T1",
+      "name": "软件测试",
+      "image": "6917.jpg"
+    },
+    {
+      "course_id": "course-v1:NTHU+CS01026+2017_T2",
+      "name": "物联网概论（2017秋）",
+      "image": "6956.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240243X_tv+2015_T1",
+      "name": "操作系统",
+      "image": "9329.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+60240202X+2016_T1",
+      "name": "大数据平台核心技术(2016年春)",
+      "image": "7042.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043X_tv+2015_T1",
+      "name": "C++语言程序设计基础",
+      "image": "7076.jpg"
+    },
+    {
+      "course_id": "DelftX/EX101x/_",
+      "name": "到最大的数据分析",
+      "image": "7123.jpg"
+    },
+    {
+      "course_id": "DelftX/FP101x/_",
+      "name": "函数式编程介绍",
+      "image": "13715.jpg"
+    },
+    {
+      "course_id": "course-v1:UPValenciaX+ISC101.3x+3T2015",
+      "name": "信息系统和计算机应用程序（第3部分）：软件发展",
+      "image": "7205.png"
+    },
+    {
+      "course_id": "course-v1:TrinityX+T002x+3T2015",
+      "name": "App Inventor移动计算——第1部分",
+      "image": "7231.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+80240372X+2017_T2",
+      "name": "数据挖掘：理论与算法（2017秋）",
+      "image": "7310.jpg"
+    },
+    {
+      "course_id": "W3Cx/HTML5.1x/_",
+      "name": "向W3C学习HTML5",
+      "image": "7356.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240532X+2017_T2",
+      "name": "面向对象程序设计（C++）（2017秋）",
+      "image": "11469.jpg"
+    },
+    {
+      "course_id": "course-v1:CHD+24123150+_",
+      "name": "信息隐藏技术",
+      "image": "7571.jpg"
+    },
+    {
+      "course_id": "course-v1:TeachersCollegeX+BDE1x+2T2015",
+      "name": "教育中的大数据",
+      "image": "7573.png"
+    },
+    {
+      "course_id": "course-v1:NBDHY+2017092201X+SP",
+      "name": "计算机绘图",
+      "image": "12222.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+60240013_tv+2015_T1",
+      "name": "组合数学",
+      "image": "7699.jpg"
+    },
+    {
+      "course_id": "UC_BerkeleyX/CS_184_1x/_",
+      "name": "计算机图形学导论",
+      "image": "7704.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240184_1X+2016_TS",
+      "name": "数据结构(上)(2016暑期班)",
+      "image": "7781.jpg"
+    },
+    {
+      "course_id": "UC_BerkeleyX/LUCS.2x/_",
+      "name": "AP ® 计算机科学 A — 提高课程 第二部分",
+      "image": "7791.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240184+sp",
+      "name": "数据结构(上)(自主模式)",
+      "image": "7796.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+20740042X+sp",
+      "name": "计算机文化基础(自主模式)",
+      "image": "9466.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740113_1X+sp",
+      "name": "VC++面向对象与可视化程序设计（上）：Windows编程基础 (自主模式)",
+      "image": "4492.jpg"
+    },
+    {
+      "course_id": "PekingX/04830050.2x/_",
+      "name": "数据结构与算法第二部分",
+      "image": "7806.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+80240673x+__",
+      "name": "大数据分析与内存计算",
+      "image": "6805.jpg"
+    },
+    {
+      "course_id": "course-v1:HKUSTx+COMP102.1x+2T2015",
+      "name": "Java编程概论——第一部分",
+      "image": "7891.jpg"
+    },
+    {
+      "course_id": "course-v1:UBCx+SPD3x+3T2015",
+      "name": "系统程序设计——第3部分：抽象、搜索和图像",
+      "image": "8040.png"
+    },
+    {
+      "course_id": "course-v1:DelftX+EX101x+3T2015",
+      "name": "数据分析终极版",
+      "image": "8073.jpg"
+    },
+    {
+      "course_id": "course-v1:WUT+01041102+2017_T1",
+      "name": "高性能计算机网络",
+      "image": "8086.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+70230063X+2017_T1",
+      "name": "应用信息论基础（2017春）",
+      "image": "8111.png"
+    },
+    {
+      "course_id": "course-v1:MYVTC+B45115016+sp",
+      "name": "单片机原理及应用（自主模式）",
+      "image": "12335.jpg"
+    },
+    {
+      "course_id": "HKUSTx/comp1022x/_",
+      "name": "Java编程概论-第2部分",
+      "image": "9537.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043_1x+2018_T1",
+      "name": "C++语言程序设计基础（2018春）",
+      "image": "8225.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+20740042X+2016-T2",
+      "name": "计算机文化基础(2016秋)",
+      "image": "8279.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DEV209.2x+3T2015",
+      "name": "开发Windows 10 UWP应用程序（第2部分）",
+      "image": "8429.png"
+    },
+    {
+      "course_id": "LouvainX/Louv1.1x/_",
+      "name": "计算机编程范式基础",
+      "image": "8493.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740123X+sp",
+      "name": "废弃",
+      "image": "8532.jpeg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240184X+sp",
+      "name": "数据结构",
+      "image": "8567.jpg"
+    },
+    {
+      "course_id": "course-v1:UTAustinX+UT.6.03x+1T2016",
+      "name": "嵌入式系统-构建世界",
+      "image": "6939.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+20740084X+2016_T1",
+      "name": "基于Linux的C++（2016春）",
+      "image": "610.jpg"
+    },
+    {
+      "course_id": "LouvainX/Louv1.01x/_",
+      "name": "计算机编程范例",
+      "image": "8638.jpg"
+    },
+    {
+      "course_id": "course-v1:NTHU+MOOC_01_004+sp",
+      "name": "计算机网络概论",
+      "image": "8647.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+60250131X+2018_T1",
+      "name": "大数据科学与应用系列讲座（2018春）",
+      "image": "8558.jpg"
+    },
+    {
+      "course_id": "course-v1:xuetangx+suanfaxlystk+2018_T0",
+      "name": "算法训练营（专题课）",
+      "image": "8723.png"
+    },
+    {
+      "course_id": "course-v1:CSU+2018012601X+2018_T1",
+      "name": "科学计算与MATLAB语言（2018春）",
+      "image": "8755.jpg"
+    },
+    {
+      "course_id": "course-v1:WUT+WUT2016001+2018_T1",
+      "name": "网络、群体与市场（2018春）",
+      "image": "1447.png"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DIS50.1x+1T2016",
+      "name": "开发国际软件",
+      "image": "8863.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+20250064X+2017_T1",
+      "name": "模拟电子技术基础(应用部分)（2017春）",
+      "image": "8872.jpg"
+    },
+    {
+      "course_id": "course-v1:HITx+13SC03100710_3x+sp",
+      "name": "数据库系统（下）：管理与技术(自主模式)",
+      "image": "9654.png"
+    },
+    {
+      "course_id": "Microsoft/DEV204x/_",
+      "name": "C#编程",
+      "image": "4579.jpg"
+    },
+    {
+      "course_id": "course-v1:BJUT+2140074001x+sp",
+      "name": "高级数据库系统（自主模式）",
+      "image": "9098.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+44100343X+2017_T2",
+      "name": "Web前端攻城狮（2017秋）",
+      "image": "9259.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+44100343X+2017_T1",
+      "name": "Web前端攻城狮（基础篇）",
+      "image": "9260.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240233X+2016_T1",
+      "name": "程序设计基础（2016春）",
+      "image": "6652.jpg"
+    },
+    {
+      "course_id": "MITx/6.341x/_",
+      "name": "离散时间信号处理",
+      "image": "9310.jpg"
+    },
+    {
+      "course_id": "course-v1:Amazon+20170727X3+2017_T1",
+      "name": "AWS云基础及产品课程（进阶课程）",
+      "image": "9312.jpg"
+    },
+    {
+      "course_id": "course-v1:SPI+20170828005x+2018_T1",
+      "name": "计算机应用基础（2018春）",
+      "image": "9321.png"
+    },
+    {
+      "course_id": "UC_BerkeleyX/BJC.3x/_",
+      "name": "计算的乐与美 (计算机科学基础) 第三部分",
+      "image": "9327.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+20740084X+sp",
+      "name": "基于Linux的C++（自主模式）",
+      "image": "9372.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+20250064X+sp",
+      "name": "模拟电子技术基础(应用部分)（自主模式）",
+      "image": null
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240184_1X+2016_T1",
+      "name": "数据结构(上)(2016春)",
+      "image": "8045.jpg"
+    },
+    {
+      "course_id": "course-v1:ustcX+LB05203_a+2016_T2",
+      "name": "文献管理与信息分析",
+      "image": "9627.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043_2x+2018_T1",
+      "name": "C++语言程序设计进阶（2018春）",
+      "image": "8910.jpg"
+    },
+    {
+      "course_id": "course-v1:BaiZhiedu+BaiZhiedu01+2017_T1",
+      "name": "深入浅出 —— JavaSE 编程基础",
+      "image": "9703.png"
+    },
+    {
+      "course_id": "course-v1:UST+UST001+sp",
+      "name": "网络技术与应用（自主模式）",
+      "image": "6019.jpg"
+    },
+    {
+      "course_id": "course-v1:WUT+1022817X+2017_T1",
+      "name": "互联网大规模数据分析技术",
+      "image": "9738.png"
+    },
+    {
+      "course_id": "course-v1:WUT+1022817X+2017_T2",
+      "name": "互联网大规模数据分析技术（2017秋）",
+      "image": "9739.png"
+    },
+    {
+      "course_id": "TsinghuaX/00740043X/2015_T1",
+      "name": "C++语言程序设计基础",
+      "image": "9840.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240233X_tv+2015_T1",
+      "name": "程序设计基础",
+      "image": "9946.jpg"
+    },
+    {
+      "course_id": "course-v1:MicrosoftX+Microsoft101+_",
+      "name": "微软亚洲研究院大数据系列讲座",
+      "image": "9949.jpg"
+    },
+    {
+      "course_id": "NotreDameX/EG240x/2T2015",
+      "name": "认识无线：技术、经济和政策",
+      "image": "8401.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DEV202.1x+2015_T4",
+      "name": "用Microsoft Azure开发云应用－第一部分",
+      "image": "12648.jpg"
+    },
+    {
+      "course_id": "course-v1:MITx+6_00_1x+sp",
+      "name": "计算机科学和Python编程导论（自主模式）",
+      "image": "10089.jpg"
+    },
+    {
+      "course_id": "course-v1:Stanford+CS101+2018_T1",
+      "name": "计算机科学 101（2018春）",
+      "image": "10092.png"
+    },
+    {
+      "course_id": "course-v1:SCUT+145036+sp",
+      "name": "计算机网络（自主模式）",
+      "image": "10093.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+80240372X+2016_T2",
+      "name": "数据挖掘：理论与算法",
+      "image": "10209.jpg"
+    },
+    {
+      "course_id": "TsinghuaX/60240013_2015X/2015_T1",
+      "name": "组合数学（2015春）",
+      "image": "10217.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+64100033X+2015_T1_",
+      "name": "大数据系统基础（2016春）",
+      "image": "10227.jpg"
+    },
+    {
+      "course_id": "course-v1:IIMBx+IS110x+1T2016",
+      "name": "创新和IT管理",
+      "image": "10062.png"
+    },
+    {
+      "course_id": "course-v1:ustcX+USTC001+2017_T2",
+      "name": "Linux操作系统分析（2017秋）",
+      "image": "10287.png"
+    },
+    {
+      "course_id": "course-v1:ustcX+USTC001+2017_T1",
+      "name": "Linux操作系统分析（2017春）",
+      "image": "4256.png"
+    },
+    {
+      "course_id": "course-v1:HITx+13SC03100710_3x+2017_T1",
+      "name": "数据库系统（下）：管理与技术",
+      "image": "12695.png"
+    },
+    {
+      "course_id": "course-v1:BUU+20180118001+2018_T2",
+      "name": "Paracraft创意动画设计",
+      "image": "10352.png"
+    },
+    {
+      "course_id": "PekingX/03131840X/_",
+      "name": "人群与网络",
+      "image": "10407.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+80240303x+__",
+      "name": "网络存储技术",
+      "image": "10415.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+60240013X+2015_T2",
+      "name": "组合数学（2015秋）",
+      "image": "10424.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DEV208x+3T2015",
+      "name": "jQuery导论",
+      "image": "10601.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+2018011901X+2018_T1",
+      "name": "Petri网：模型、理论与应用（2018春）",
+      "image": "10798.jpg"
+    },
+    {
+      "course_id": "TsinghuaX/20240103X/2015_T2",
+      "name": "汇编语言程序设计",
+      "image": "10807.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+CLD202x+1T2016",
+      "name": "IT职业人士之SharePoint基础",
+      "image": "10823.png"
+    },
+    {
+      "course_id": "course-v1:UC3Mx+IM.1x+1T2016",
+      "name": "管理信息系统（MIS）导论：生存指南",
+      "image": "9975.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240233X_2015_T2+sp",
+      "name": "程序设计基础（自主模式）",
+      "image": "12422.jpg"
+    },
+    {
+      "course_id": "course-v1:ZZU+2018032501X+2018_T1",
+      "name": "信息技术与教育应用",
+      "image": "10934.jpg"
+    },
+    {
+      "course_id": "course-v1:UC_BerkeleyX+CS169_2x+_",
+      "name": "软件即服务 (SaaS) - 第 2 部分",
+      "image": "11016.jpg"
+    },
+    {
+      "course_id": "course-v1:DelftX+TXT1x+3T2015",
+      "name": "文本挖掘和分析",
+      "image": "11018.png"
+    },
+    {
+      "course_id": "course-v1:MicrosoftX+Microsoft101+2017_T2",
+      "name": "微软亚洲研究院大数据系列讲座（2017秋）",
+      "image": "15583.jpg"
+    },
+    {
+      "course_id": "course-v1:NTHU+CS01026+2016_T2",
+      "name": "物联网概论",
+      "image": "11089.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740113_1X+2016_T1",
+      "name": "VC++面向对象与可视化程序设计（上）：Windows编程基础 ",
+      "image": "9417.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240243X+sp",
+      "name": "操作系统 (自主模式)",
+      "image": "2285.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+20740042X+2017_T1",
+      "name": "计算机文化基础(2017春)",
+      "image": "11129.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+20740042X+2017_T2",
+      "name": "计算机文化基础（2017秋）",
+      "image": "11132.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+80240632X+__",
+      "name": "大数据分析（B）",
+      "image": "11151.jpg"
+    },
+    {
+      "course_id": "course-v1:UCSDx+CSE167x+3T2015",
+      "name": "电脑绘图学",
+      "image": "10027.jpg"
+    },
+    {
+      "course_id": "course-v1:KIx+KIexploRx+2015T3",
+      "name": "通过R语言探索统计学",
+      "image": "11222.jpg"
+    },
+    {
+      "course_id": "BerkeleyX/CS169_1x/_",
+      "name": "云计算与软件工程——第一部分",
+      "image": "11281.jpg"
+    },
+    {
+      "course_id": "course-v1:UPValenciaX+ISC101.2x+3T2015",
+      "name": "信息系统和计算机应用程序（第2部分）：硬件",
+      "image": "11324.png"
+    },
+    {
+      "course_id": "course-v1:BJUT+2140074001x+_",
+      "name": "高级数据库系统",
+      "image": "11375.png"
+    },
+    {
+      "course_id": "course-v1:NJU+C1026+2016_T2",
+      "name": "计算机操作系统（自主模式）",
+      "image": "11392.png"
+    },
+    {
+      "course_id": "course-v1:WUT+WUT2016001+2017_T2",
+      "name": "网络、群体与市场（2017秋）",
+      "image": "11543.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043_2x_2015_T2+sp",
+      "name": "C++语言程序设计进阶 (自主模式)",
+      "image": "11545.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+205x+1T2016",
+      "name": "构建微软Azure解决方案",
+      "image": "11547.png"
+    },
+    {
+      "course_id": "course-v1:QFNU+e11+2018_T1",
+      "name": "计算机那些事儿（2018春）",
+      "image": "12932.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240332+sp",
+      "name": "JAVA程序设计进阶（自主模式）",
+      "image": "11712.png"
+    },
+    {
+      "course_id": "NTHU/MOOC_01_004/2014_T2",
+      "name": "计算机网络概论",
+      "image": "11798.jpg"
+    },
+    {
+      "course_id": "course-v1:BerkeleyX+CS169_1x+2018_T1",
+      "name": "云计算与软件工程（2018春）",
+      "image": "11808.jpg"
+    },
+    {
+      "course_id": "course-v1:CAU+08110140_1x+2016_T1",
+      "name": "C程序设计案例教程（基础）（2016春季）",
+      "image": "11828.jpg"
+    },
+    {
+      "course_id": "course-v1:ETHx+CAMS-II-x+3T2015",
+      "name": "计算：艺术、魔术与科学（第二册）",
+      "image": "11850.png"
+    },
+    {
+      "course_id": "course-v1:UC3Mx+INF.1x+1T2016",
+      "name": "软件架构师代码：创建数字世界",
+      "image": "11877.png"
+    },
+    {
+      "course_id": "course-v1:MITx+6.00.1x_6+2T2015",
+      "name": "计算机科学与Python编程导论",
+      "image": "11908.jpg"
+    },
+    {
+      "course_id": "course-v1:CUNY+20171211001+sp",
+      "name": "网络安全概述（自主模式）",
+      "image": "11927.png"
+    },
+    {
+      "course_id": "course-v1:USTC+USTC2006001+2016_T1",
+      "name": "软件设计模式",
+      "image": "11932.png"
+    },
+    {
+      "course_id": "course-v1:HIT+2017071303X+SP",
+      "name": "程序设计基础",
+      "image": "6146.jpg"
+    },
+    {
+      "course_id": "PekingX/00330280x/_",
+      "name": "魅力机器人",
+      "image": "12002.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+60240202X_p1+sp",
+      "name": "分布式存储与资源管理（微慕课）",
+      "image": "12042.png"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DAT203x+1T2016",
+      "name": "数据科学与机器学习要领",
+      "image": "2650.png"
+    },
+    {
+      "course_id": "MITx/15.071x/_",
+      "name": "分析前沿",
+      "image": "6873.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DEV209.1x+2T2016",
+      "name": "开发Windows 10 UWP应用程序（第1部分）",
+      "image": "12119.png"
+    },
+    {
+      "course_id": "TsinghuaX/60250131X/2015_03_02",
+      "name": "大数据科学与应用系列讲座",
+      "image": "12133.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DAT204x+1T2016",
+      "name": "R导论",
+      "image": "12161.png"
+    },
+    {
+      "course_id": "ETHx/AMRx/_",
+      "name": "自主移动机器人",
+      "image": "12224.jpg"
+    },
+    {
+      "course_id": "HarvardX/CS50x/_",
+      "name": "计算机科学导论",
+      "image": "12316.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+70230063X+2016_T2",
+      "name": "应用信息论基础",
+      "image": null
+    },
+    {
+      "course_id": "TsinghuaX/30240184_1X/_",
+      "name": "数据结构（上）",
+      "image": "12353.jpg"
+    },
+    {
+      "course_id": "course-v1:Stanford+CS101+_",
+      "name": "计算机科学 101",
+      "image": "15439.jpg"
+    },
+    {
+      "course_id": "course-v1:SCUT+145223+2018_T1",
+      "name": "大学计算机基础（2018春）",
+      "image": "2034.png"
+    },
+    {
+      "course_id": "KIx/KIexploRx/_",
+      "name": "研究R语言",
+      "image": "12553.jpg"
+    },
+    {
+      "course_id": "TsinghuaX/30240184_2015WV/2015_winter_vacation",
+      "name": "数据结构（寒假专班）",
+      "image": "12568.jpg"
+    },
+    {
+      "course_id": "course-v1:CAU+08110140_tv+2015_T1",
+      "name": "C程序设计案例教程",
+      "image": "12576.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740123X+2016_T1",
+      "name": "Java程序设计",
+      "image": "12603.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740123X+2016_TS",
+      "name": "Java程序设计(2016暑期班）",
+      "image": "12646.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+60250131X+2017_T2",
+      "name": "大数据科学与应用系列讲座（2017秋）",
+      "image": "12708.jpg"
+    },
+    {
+      "course_id": "PekingX/04830050x/2T2014",
+      "name": "数据结构与算法第一部分",
+      "image": "14661.jpg"
+    },
+    {
+      "course_id": "UC_BerkeleyX/CS-191x/_",
+      "name": "量子力学和量子计算",
+      "image": "4403.jpg"
+    },
+    {
+      "course_id": "course-v1:LouvainX+Louv1.1x+3T2015",
+      "name": "计算机编程范例——基本原理",
+      "image": "12870.jpg"
+    },
+    {
+      "course_id": "RiceX/ELEC301x/_",
+      "name": "离散时间信号和系统",
+      "image": "12885.jpg"
+    },
+    {
+      "course_id": "Microsoft/DEV202.1x/_",
+      "name": "通过Microsoft Azure开发云应用 - 第1部分",
+      "image": "13101.jpg"
+    },
+    {
+      "course_id": "PekingX/532001x/_",
+      "name": "程序设计基础",
+      "image": "10349.jpg"
+    },
+    {
+      "course_id": "course-v1:BUU+20180118001+2018_T1",
+      "name": "Paracraft创意动画设计",
+      "image": "10351.png"
+    },
+    {
+      "course_id": "MITx/MAS.S69x/_",
+      "name": "大数据与社会物理学",
+      "image": "13322.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043_2X_tv+2015_T1",
+      "name": "C++语言程序设计进阶",
+      "image": "10689.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+40809644X+2016_T1",
+      "name": "界面设计导论",
+      "image": "13284.jpg"
+    },
+    {
+      "course_id": "course-v1:BaiZhiedu+BaiZhiedu03+2017_T1",
+      "name": "实战操作 —— Java高级框架应用",
+      "image": "13321.png"
+    },
+    {
+      "course_id": "CornellX/ENGRI1280x/_",
+      "name": "窃听大数据：互联时代的隐私与监听",
+      "image": "1297.jpg"
+    },
+    {
+      "course_id": "course-v1:CQUX+SE31107X+sp",
+      "name": "Web开发技术",
+      "image": "13489.jpg"
+    },
+    {
+      "course_id": "HKUSTx/comp1021x/_",
+      "name": "Java编程概论-第1部分",
+      "image": "13505.jpg"
+    },
+    {
+      "course_id": "course-v1:PekingX+20180320001+2018_T1",
+      "name": "人工智能原理",
+      "image": "13545.png"
+    },
+    {
+      "course_id": "course-v1:GIT+0600000050+2017_T2",
+      "name": "C语言程序设计基础（2017秋）",
+      "image": "13598.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+40809644X+2018_T1",
+      "name": "界面设计导论（2018春）",
+      "image": "4989.jpg"
+    },
+    {
+      "course_id": "course-v1:CAU+08112500x+2016_T1",
+      "name": "大学计算机教程（2016春季）",
+      "image": "13640.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+THU201606X+sp",
+      "name": "高级大数据系统（自主模式）",
+      "image": "5991.jpg"
+    },
+    {
+      "course_id": "course-v1:KMUSTX+3102003+2018_T1",
+      "name": "C君带你玩编程（2018春）",
+      "image": "13827.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+2018032801X+2018_T1",
+      "name": "学做小程序",
+      "image": "6639.png"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DEV207.1x+1T2016",
+      "name": "F#编程",
+      "image": "13896.png"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DEV202.2x+2015_T4",
+      "name": "用Microsoft Azure开发云应用－第二部分",
+      "image": "13959.jpg"
+    },
+    {
+      "course_id": "course-v1:CentralSouth+2018012301X+2018_T1",
+      "name": "科学计算（请大家重新选课，名称一样，此课废弃，谢谢）",
+      "image": "9958.jpg"
+    },
+    {
+      "course_id": "course-v1:UC_BerkeleyX+CS_184_1x+sp",
+      "name": "计算机图形学导论（自主模式）",
+      "image": "14064.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+44100343X+2018_T1",
+      "name": "Web前端攻城狮（2018春）",
+      "image": "14099.jpg"
+    },
+    {
+      "course_id": "UC3Mx/IT.1.1x/_",
+      "name": "Java编程导论——第一部分：开始Java编程",
+      "image": "14115.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240184_2X+2016_TS",
+      "name": "数据结构(下)(2016暑期班)",
+      "image": "10534.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+20740042X+2016_T1",
+      "name": "计算机文化基础(2016春)",
+      "image": "14175.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+80240372X+__",
+      "name": "数据挖掘: 理论与算法",
+      "image": "14262.jpg"
+    },
+    {
+      "course_id": "CornellX/ENGRI1210x/_",
+      "name": " 智能手机内部的计算技术",
+      "image": "14276.jpg"
+    },
+    {
+      "course_id": "course-v1:KMUSTX+3102003+sp",
+      "name": "C君带你玩编程（自主模式）",
+      "image": "14305.png"
+    },
+    {
+      "course_id": "course-v1:Amazon+20180313+2018_T1",
+      "name": "AWS云计算数据搜索与分析---Amazon Elasticsearch",
+      "image": "14352.jpg"
+    },
+    {
+      "course_id": "UC_BerkeleyX/CS188.1x/_",
+      "name": "人工智能",
+      "image": "3874.jpg"
+    },
+    {
+      "course_id": "course-v1:W3Cx+HTML5.1x+4T2015",
+      "name": "从W3C开始学习HTML5",
+      "image": "14418.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+60250131X+sp",
+      "name": "大数据科学与应用系列讲座（自主模式）",
+      "image": "9323.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+60240202X+sp",
+      "name": "大数据平台核心技术（自主模式）",
+      "image": "14436.jpg"
+    },
+    {
+      "course_id": "UC_BerkeleyX/cs100-1x/_",
+      "name": "Apache Spark大数据入门",
+      "image": "6195.jpg"
+    },
+    {
+      "course_id": "course-v1:PekingX+04831750.1x+2015T1",
+      "name": "C++ Programming | C++程序设计",
+      "image": "4716.jpg"
+    },
+    {
+      "course_id": "IITBombayX/CS101.2x/_",
+      "name": "计算机编程导论，第二部分",
+      "image": "14525.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+70240183x_1+sp",
+      "name": "计算几何（自主模式）",
+      "image": "14589.jpg"
+    },
+    {
+      "course_id": "UC_BerkeleyX/BJC.4x/_",
+      "name": "计算的乐与美 (计算机科学基础) 第四部分",
+      "image": "14607.jpg"
+    },
+    {
+      "course_id": "course-v1:CAU+08110140+2015_T2",
+      "name": "C程序设计案例教程（2015秋季）",
+      "image": "14642.jpg"
+    },
+    {
+      "course_id": "course-v1:CAU+08110140_2x+sp",
+      "name": "C程序设计案例教程（进阶）（自主模式）",
+      "image": "5643.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+INF202x+3T2015",
+      "name": "微软企业移动套件",
+      "image": "14687.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043_2x_2015_T2+2015_T2",
+      "name": "C++语言程序设计进阶 (2015年秋)",
+      "image": "14762.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DEV209.3x+3T2015",
+      "name": "开发Windows 10 UWP应用程序（第3部分）",
+      "image": "14841.png"
+    },
+    {
+      "course_id": "course-v1:HKUSTx+COMP102.2x+4T2015",
+      "name": "Java编程概论——第二部分",
+      "image": "14852.jpg"
+    },
+    {
+      "course_id": "course-v1:BIT+BIT2016001+2016_T2",
+      "name": "软件工程与软件自动化",
+      "image": "14864.jpg"
+    },
+    {
+      "course_id": "course-v1:UC_BerkeleyX+CS169_2x+sp",
+      "name": "软件即服务 (SaaS) - 第 2 部分",
+      "image": null
+    },
+    {
+      "course_id": "TsinghuaX/30240233X/2015_T1",
+      "name": "程序设计基础",
+      "image": "14907.jpg"
+    },
+    {
+      "course_id": "course-v1:BerkeleyX+CS169_1x+2016_T2",
+      "name": "云计算与软件工程 · 第 I 部分（2016秋）",
+      "image": "14955.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240184_2X+2016_T1",
+      "name": "数据结构(下)(2016春)",
+      "image": "14958.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+80240699x+__",
+      "name": "大数据算法基础",
+      "image": "14996.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DAT206x+2T2016",
+      "name": "运用Excel实施数据分析和可视化",
+      "image": "15079.png"
+    },
+    {
+      "course_id": "UC_BerkeleyX/LUCS.4x/_",
+      "name": "AP ® 计算机科学 A — 提高课程 第四部分",
+      "image": "7149.jpg"
+    },
+    {
+      "course_id": "UTAustinX/UT.7.01x/_",
+      "name": "数据分析的基础",
+      "image": "13490.jpg"
+    },
+    {
+      "course_id": "course-v1:BIT+BIT2016001+sp",
+      "name": "软件工程与软件自动化（自主模式）",
+      "image": "15136.jpg"
+    },
+    {
+      "course_id": "course-v1:BIT+BIT2017001+2017_T1",
+      "name": "数字媒体科学（废弃）",
+      "image": "5268.png"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DAT202.2x+2T2016",
+      "name": "运用Azure HDInsight中的Hadoop实施实时分析",
+      "image": "15223.png"
+    },
+    {
+      "course_id": "course-v1:ustcX+LB05203_a+sp",
+      "name": "文献管理与信息分析（自主模式）",
+      "image": "15256.png"
+    },
+    {
+      "course_id": "TsinghuaX/60240202X/_",
+      "name": "大数据平台核心技术",
+      "image": "15292.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740043X_2015_T2+2015_T2",
+      "name": "C++语言程序设计基础 (2015年秋)",
+      "image": "15303.jpg"
+    },
+    {
+      "course_id": "course-v1:LouvainX+Louv1.2x+4T2015",
+      "name": "计算机编程范例——抽象和并发性",
+      "image": "15319.jpg"
+    },
+    {
+      "course_id": "PekingX/01718330X/_",
+      "name": "计算机辅助翻译原理与实践",
+      "image": "9577.jpg"
+    },
+    {
+      "course_id": "course-v1:MITx+6_00_1x+2015_T1",
+      "name": "计算机科学和Python编程导论",
+      "image": "16326.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240532X+2018_T1",
+      "name": "面向对象程序设计（C++）（2018春）",
+      "image": "5290.jpg"
+    },
+    {
+      "course_id": "PekingX/04830050x/_",
+      "name": "数据结构与算法第一部分",
+      "image": "15382.jpg"
+    },
+    {
+      "course_id": "UC_BerkeleyX/BJC.2x/_",
+      "name": "计算的乐与美 (计算机科学基础) 第二部分",
+      "image": "15393.jpg"
+    },
+    {
+      "course_id": "PekingX/03131840x/3T2014",
+      "name": "人群与网络 | Networks and Crowds",
+      "image": "15412.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+20240103X+sp",
+      "name": "汇编语言程序设计（自主模式）",
+      "image": "2557.jpg"
+    },
+    {
+      "course_id": "course-v1:GXUST+2017041901X+2017_T1",
+      "name": "计算思维导论（自主模式）",
+      "image": "12636.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+INF201x+2015_T4",
+      "name": "Windows PowerShell基础",
+      "image": "15458.jpg"
+    },
+    {
+      "course_id": "course-v1:MYVTC+B45112002+2018_T1",
+      "name": "计算机文化基础（自主模式）",
+      "image": "15462.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DAT202.3x+1T2016",
+      "name": "运用Azure HDInsight中的Hadoop实施预测性分析",
+      "image": "13992.png"
+    },
+    {
+      "course_id": "course-v1:SDUx+131000110_tv+2015_T1",
+      "name": "大学计算机——计算思维的视角",
+      "image": "12192.jpg"
+    },
+    {
+      "course_id": "course-v1:JXUST+JXUST2016001+2016_T2",
+      "name": "人工智能（自主模式）",
+      "image": "15632.jpg"
+    },
+    {
+      "course_id": "TsinghuaX/30240184_2015X/2015_T1",
+      "name": "数据结构(2015春)",
+      "image": "15637.jpg"
+    },
+    {
+      "course_id": "course-v1:Microsoft+DEV204x+2015_T4",
+      "name": "C#编程",
+      "image": "15656.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740113_2X+2016_T1",
+      "name": "VC++面向对象与可视化程序设计（下）：MFC编程基础 (2016春)",
+      "image": "15665.jpg"
+    },
+    {
+      "course_id": "course-v1:JXUST+JXUST2016001+2018_T1",
+      "name": "人工智能（2018春）",
+      "image": "15711.jpg"
+    },
+    {
+      "course_id": "RiceX/MedDigX/_",
+      "name": "数字时代的医学",
+      "image": "4665.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+20240103X+2016_T1",
+      "name": "汇编语言程序设计（2016年春）",
+      "image": "15719.jpg"
+    },
+    {
+      "course_id": "course-v1:ustcX+USTC001+_",
+      "name": "Linux操作系统分析",
+      "image": "15741.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+60240202X_p3+sp",
+      "name": "流计算、内存计算与分布式机器学习平台（微慕课）",
+      "image": "13399.png"
+    },
+    {
+      "course_id": "course-v1:WUT+WUT2016001+2016_T2",
+      "name": "网络、群体与市场",
+      "image": "15794.png"
+    },
+    {
+      "course_id": "course-v1:BIFT+1301990078+2018_T1",
+      "name": "服装数字科技（2018春）",
+      "image": "15795.png"
+    },
+    {
+      "course_id": "course-v1:NTHU+CS12500+sp",
+      "name": "数据结构(自主模式)",
+      "image": "12355.png"
+    },
+    {
+      "course_id": "course-v1:UPValenciaX+ISC101.5x+3T2015",
+      "name": "信息系统和计算机应用程序（第5部分）：社会影响",
+      "image": "15815.png"
+    },
+    {
+      "course_id": "course-v1:BerkeleyX+CS169_1x+2017_T2",
+      "name": "云计算与软件工程（2017秋）",
+      "image": "15840.jpg"
+    },
+    {
+      "course_id": "course-v1:BerkeleyX+CS169_1x+2017_T1",
+      "name": "云计算与软件工程 · 第 I 部分（2017春）",
+      "image": "15841.jpg"
+    },
+    {
+      "course_id": "course-v1:SDUx+131000110+sp",
+      "name": "大学计算机——计算思维的视角（自主模式）",
+      "image": "12840.jpg"
+    },
+    {
+      "course_id": "PekingX/04830050.2x/2015Q3",
+      "name": "数据结构与算法第二部分 | Data Structures and Algorithms Part 2",
+      "image": "13549.jpg"
+    },
+    {
+      "course_id": "course-v1:HKUSTx+COMP107x+2016_T1",
+      "name": "安卓平台移动应用开发导论",
+      "image": "12930.png"
+    },
+    {
+      "course_id": "course-v1:CAU+08110140_1x+sp",
+      "name": "C程序设计案例教程（基础）（自主模式）",
+      "image": "15959.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+20740042X+2018_T1",
+      "name": "计算机文化基础（2018春）",
+      "image": "16416.jpg"
+    },
+    {
+      "course_id": "course-v1:QFNU+e11+2017_T2",
+      "name": "计算机那些事儿（2017秋）",
+      "image": "13353.jpg"
+    },
+    {
+      "course_id": "HarvardX/PH525.1x/_",
+      "name": "生命科学中的统计与R编程",
+      "image": "13638.jpg"
+    },
+    {
+      "course_id": "course-v1:UC3Mx+IT.1.1x+3T2015",
+      "name": "Java程序设计概论-第1部分开始使用Java编程",
+      "image": "9390.jpg"
+    },
+    {
+      "course_id": "course-v1:CHD+24123150+2017_T1",
+      "name": "信息隐藏技术（自主模式）",
+      "image": "16069.jpg"
+    },
+    {
+      "course_id": "course-v1:USTC+USTC2006001+2017_T1",
+      "name": "软件设计模式（2017春）",
+      "image": "16188.png"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+20740042X+2016_TS",
+      "name": "计算机文化基础(2016暑期班)",
+      "image": "14160.jpg"
+    },
+    {
+      "course_id": "course-v1:XJTU+COMP200853+sp",
+      "name": "微机原理与接口技术（自主模式）",
+      "image": "8133.JPG"
+    },
+    {
+      "course_id": "course-v1:Stanford+CS101+sp",
+      "name": "计算机科学 101（自主模式）",
+      "image": "16229.png"
+    },
+    {
+      "course_id": "course-v1:XIYOU+20180208+sp",
+      "name": "编译技术",
+      "image": "16258.jpg"
+    },
+    {
+      "course_id": "course-v1:HUBU+1119001712+sp",
+      "name": "大学计算机基础（自主模式）",
+      "image": "15026.JPG"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+30240233X+2016_TS",
+      "name": "程序设计基础（2016暑期班）",
+      "image": "6949.jpg"
+    },
+    {
+      "course_id": "course-v1:TsinghuaX+00740113X_tv+2015_T1",
+      "name": "VC++面向对象与可视化程序设计",
+      "image": "10897.jpg"
+    },
+    {
+      "course_id": "TsinghuaX/34100325X/2015_T1",
+      "name": "软件工程",
+      "image": "15592.jpg"
+    },
+    {
+      "course_id": "Microsoft/DEV201x/_",
+      "name": "TypeScript入门",
+      "image": "16377.jpg"
+    },
+    {
+      "course_id": "course-v1:HITx+13SC03100710_1x+sp",
+      "name": "数据库系统（上）：模型与语言(自主模式)",
+      "image": "16381.png"
+    },
+    {
+      "course_id": "course-v1:SCUT+145033+2018_T1",
+      "name": "计算机网络",
+      "image": "15730.jpg"
+    }
+  ],
+  "user_courses": [
+    {
+      "name": "组合数学（2015春）",
+      "category": [
+        "计算机",
+        "数学"
+      ],
+      "watch_time": 18611.999988392625
+    },
+    {
+      "name": "C程序设计案例教程（基础）（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "心理学概论（2015秋）",
+      "category": [
+        "社科·法律"
+      ],
+      "watch_time": 12439.999975632752
+    },
+    {
+      "name": "大脑感知与行动：系统神经科学",
+      "category": [
+        "生命科学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "职业探索与选择（2016秋）",
+      "category": [
+        "其他"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "高等流体力学",
+      "category": [
+        "工程"
+      ],
+      "watch_time": 212.00000894067603
+    },
+    {
+      "name": "大唐兴衰（自主模式）",
+      "category": [
+        "文学",
+        "历史"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "中级财务和管理会计",
+      "category": [
+        "经管·会计"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "心理学概论",
+      "category": [
+        "社科·法律"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "微软亚洲研究院大数据系列讲座",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "清华院系概览（自主模式）",
+      "category": [
+        "其他",
+        "教育"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "组合数学（自主模式）",
+      "category": [
+        "数学"
+      ],
+      "watch_time": 602.9999916499086
+    },
+    {
+      "name": "大数据科学与应用系列讲座（2017秋）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "吴参谋消防大讲堂（自主模式）",
+      "category": [
+        "社科·法律",
+        "其他"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "软件工程(2016春)",
+      "category": [
+        "工程",
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "《资治通鉴》导读(自主模式)",
+      "category": [
+        "文学",
+        "历史"
+      ],
+      "watch_time": 21487.999951044436
+    },
+    {
+      "name": "模拟电子技术基础(基础部分)(自主模式)",
+      "category": [
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "软件工程（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 40841.00008861865
+    },
+    {
+      "name": "数据结构(上)(自主模式)",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 7711.000010622439
+    },
+    {
+      "name": "网络技术与应用（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 156.99999705326968
+    },
+    {
+      "name": "大数据算法基础",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "C++语言程序设计基础 (2017春)",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "计算几何（2016春）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 303.999998569608
+    },
+    {
+      "name": "华为成功之道：人力资源管理的最佳实践",
+      "category": [
+        "创业"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "线性代数(2) (2016春)",
+      "category": [
+        "数学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "英文科技论文写作与学术报告",
+      "category": [
+        "外语"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "生死学（自主模式）",
+      "category": [
+        "社科·法律",
+        "哲学"
+      ],
+      "watch_time": 851.0
+    },
+    {
+      "name": "财务分析与决策（2016秋）",
+      "category": [
+        "经管·会计"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "有机化学（2015秋）",
+      "category": [
+        "化学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "汽车发动机原理(自主模式)",
+      "category": [
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "数据挖掘：理论与算法（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "西游记",
+      "category": [
+        "文学"
+      ],
+      "watch_time": 6253.000015318353
+    },
+    {
+      "name": "运筹学（2017秋）",
+      "category": [
+        "数学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "工科数学分析（一）（2017秋）",
+      "category": [
+        "数学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "Java程序设计（2018春）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 4.00000009406375
+    },
+    {
+      "name": "航天器轨道力学",
+      "category": [
+        "工程",
+        "物理"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "工程应用数学基础（自主模式）",
+      "category": [
+        "工程",
+        "数学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "管理经济学[MBA]",
+      "category": [],
+      "watch_time": 0
+    },
+    {
+      "name": "运筹学（自主模式）",
+      "category": [
+        "数学"
+      ],
+      "watch_time": 0.99999998614642
+    },
+    {
+      "name": "电路与电子学 (Circuits and Electronics)",
+      "category": [
+        "电子"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "中国建筑史(2015秋)",
+      "category": [
+        "艺术·设计",
+        "历史"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "营销：人人都需要的一门课(2017春)",
+      "category": [
+        "经管·会计"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "西方哲学精神探源",
+      "category": [
+        "哲学"
+      ],
+      "watch_time": 7156.999989271077
+    },
+    {
+      "name": "人工智能（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "美国政治概论",
+      "category": [
+        "社科·法律"
+      ],
+      "watch_time": 28754.99983938867
+    },
+    {
+      "name": "线性代数(2)",
+      "category": [
+        "数学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "工程材料",
+      "category": [
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "计算几何（2016秋）",
+      "category": [],
+      "watch_time": 0
+    },
+    {
+      "name": "营销：人人都需要的一门课(自主模式)",
+      "category": [
+        "创业",
+        "经管·会计"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "Web前端攻城狮（基础篇）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "软件工程(2016春)",
+      "category": [
+        "工程",
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "C++语言程序设计基础 (自主模式)",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "职业探索与选择（2017春）",
+      "category": [
+        "其他"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "大数据分析与内存计算",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "大学物理1 (力学、热学)",
+      "category": [
+        "物理"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "计算几何（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "项目管理概论（自主模式）",
+      "category": [
+        "经管·会计"
+      ],
+      "watch_time": 9.99999972059808
+    },
+    {
+      "name": "模拟电子技术基础(基础部分)(2015秋)",
+      "category": [
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "数据结构(下)(自主模式)",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 7433.00000155733
+    },
+    {
+      "name": "有机化学（2015春）",
+      "category": [
+        "化学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "计算几何（2017春）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "计算几何",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "数据结构（Data Structures）（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "大数据分析（B）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "线性代数(2)（自主模式）",
+      "category": [
+        "数学"
+      ],
+      "watch_time": 2062.9999873046427
+    },
+    {
+      "name": "大数据系统基础（2017秋）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 28021.00000435126
+    },
+    {
+      "name": "量子力学（下）（自主模式）",
+      "category": [
+        "物理"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "生活英语听说（自主模式）",
+      "category": [
+        "外语"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "微机原理与接口技术（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "文献管理与信息分析（2017春）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "普通生物学（先修课）-细胞和分子（2015秋）",
+      "category": [
+        "大学先修课",
+        "生命科学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "数据结构",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "数据结构(2015春)",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 35003.00005145414
+    },
+    {
+      "name": "大数据平台核心技术",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 2367.000010787696
+    },
+    {
+      "name": "唐宋词鉴赏（2017秋）",
+      "category": [
+        "文学"
+      ],
+      "watch_time": 585.99999189399
+    },
+    {
+      "name": "线性代数(1)（自主模式）",
+      "category": [
+        "数学"
+      ],
+      "watch_time": 15779.999954998097
+    },
+    {
+      "name": "数据挖掘: 理论与算法",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "庄子哲学导读（2017秋）",
+      "category": [
+        "文学"
+      ],
+      "watch_time": 7458.0000452036775
+    },
+    {
+      "name": "数字电子技术基础（自主模式）",
+      "category": [
+        "电子",
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "软件测试",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "组合数学（2015秋）",
+      "category": [
+        "计算机",
+        "数学"
+      ],
+      "watch_time": 1495.0
+    },
+    {
+      "name": "高级大数据系统（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "软件设计模式（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "经济学原理",
+      "category": [
+        "经管·会计"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "互联网大规模数据分析技术（2017秋）",
+      "category": [
+        "工程",
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "数据库系统（下）：管理与技术",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "自我认知与情绪管理",
+      "category": [
+        "社科·法律",
+        "医学·健康"
+      ],
+      "watch_time": 1441.000010252044
+    },
+    {
+      "name": "财务分析与决策（2015秋）",
+      "category": [
+        "创业",
+        "经管·会计"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "音乐与健康（自主模式）",
+      "category": [
+        "社科·法律",
+        "艺术·设计",
+        "其他"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "汽车理论",
+      "category": [
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "公共危机管理",
+      "category": [
+        "公共管理"
+      ],
+      "watch_time": 42.000001668912
+    },
+    {
+      "name": "Linux操作系统分析（2017春）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 11.999999947836999
+    },
+    {
+      "name": "电路原理（2017秋）",
+      "category": [
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "中国大国崛起的经济、历史、国际研究分析",
+      "category": [
+        "社科·法律",
+        "经管·会计"
+      ],
+      "watch_time": 153.9999986141396
+    },
+    {
+      "name": "数据结构(上)(2016春)",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "编译技术",
+      "category": [
+        "工程",
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "研究生学术与职业素养讲座（自主模式）",
+      "category": [
+        "其他"
+      ],
+      "watch_time": 5224.000005185386
+    },
+    {
+      "name": "清代建筑概说（微慕课）",
+      "category": [
+        "历史",
+        "建筑"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "大唐兴衰（2017春）",
+      "category": [
+        "历史"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "现代物流与供应链管理（自主模式）",
+      "category": [
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "C++语言程序设计基础",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "电路原理（2017春）",
+      "category": [],
+      "watch_time": 0
+    },
+    {
+      "name": "微软亚洲研究院大数据系列讲座（2017秋）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 32.000000216085
+    },
+    {
+      "name": "网络存储技术",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "软件设计模式（2017春）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 1008.9999796148039
+    },
+    {
+      "name": "大数据科学与应用系列讲座",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 5779.0000369555555
+    },
+    {
+      "name": "运动心理学（2018春）",
+      "category": [
+        "医学·健康",
+        "教育"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "计算机科学和Python编程导论",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 2.9999998658905
+    },
+    {
+      "name": "C++语言程序设计进阶 (自主模式)",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "数据库系统（中）：建模与设计",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "汽车发动机原理(2016春)",
+      "category": [
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "外国工艺美术史（2015秋）",
+      "category": [
+        "艺术·设计",
+        "历史"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "走进医学",
+      "category": [
+        "医学·健康"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "通信原理(自主模式)",
+      "category": [
+        "电子",
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "创业启程",
+      "category": [
+        "创业",
+        "经管·会计"
+      ],
+      "watch_time": 13926.999986097662
+    },
+    {
+      "name": "汇编语言程序设计（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "运筹学",
+      "category": [],
+      "watch_time": 0
+    },
+    {
+      "name": "创·课十讲：下一只独角兽的摇篮课（2017春）",
+      "category": [
+        "创业"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "如何写好科研论文",
+      "category": [
+        "社科·法律",
+        "其他"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "大唐兴衰",
+      "category": [
+        "文学",
+        "历史"
+      ],
+      "watch_time": 14770.999927937755
+    },
+    {
+      "name": "大气污染控制工程(2016春)",
+      "category": [
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "电路原理（一）",
+      "category": [
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "数据结构(下)(2016春)",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "数字电子技术基础（2017春）",
+      "category": [
+        "电子"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "足球运动与科学（自主模式）",
+      "category": [
+        "其他"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "量子力学（上）(自主模式)",
+      "category": [
+        "物理"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "生活英语听说（2017春）",
+      "category": [
+        "外语"
+      ],
+      "watch_time": 61.000001013306
+    },
+    {
+      "name": "医学寄生虫学",
+      "category": [
+        "医学·健康",
+        "生命科学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "我国周边14个陆地邻国基本情况介绍",
+      "category": [
+        "其他"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "C++语言程序设计基础 (2017秋)",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "文物精品与文化中国（自主模式）",
+      "category": [
+        "文学",
+        "历史"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "学会学：学习之道（2018春）",
+      "category": [
+        "其他"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "线性代数(1)(2015春)",
+      "category": [
+        "数学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "汇编语言程序设计",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "《资治通鉴》导读（2017秋）",
+      "category": [
+        "历史"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "汽车理论 (自主模式)",
+      "category": [
+        "工程"
+      ],
+      "watch_time": 676.0
+    },
+    {
+      "name": "C++语言程序设计进阶 (2017春)",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "模拟电子技术基础(应用部分)（2017春）",
+      "category": [
+        "电子",
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "金融工程导论",
+      "category": [
+        "经管·会计"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "歌唱启蒙与表演——教你成为歌唱达人（2017春）",
+      "category": [
+        "艺术·设计"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "《资治通鉴》导读（2017春）",
+      "category": [
+        "历史"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "计算机图形学导论（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "现代生物学导论",
+      "category": [
+        "生命科学"
+      ],
+      "watch_time": 7031.99996539163
+    },
+    {
+      "name": "操作系统 (自主模式)",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 70792.9999499353
+    },
+    {
+      "name": "网络、群体与市场",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "中国房地产发展之路（2016暑期班）",
+      "category": [
+        "经管·会计"
+      ],
+      "watch_time": 341.0
+    },
+    {
+      "name": "软件理论基础",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "操作系统 (2015秋)",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "基于R语言的社会统计分析",
+      "category": [
+        "社科·法律",
+        "数学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "应用信息论基础",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "走进心理学（自主模式）",
+      "category": [
+        "社科·法律"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "唐宋词鉴赏",
+      "category": [
+        "历史"
+      ],
+      "watch_time": 371.00000202633004
+    },
+    {
+      "name": "高级数据库系统（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "数据结构（上）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "信号与系统分析",
+      "category": [
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "计算几何（废弃）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 11777.00003591406
+    },
+    {
+      "name": "线性代数（自主模式）",
+      "category": [
+        "数学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "走进医学(2017春)",
+      "category": [
+        "医学·健康",
+        "生命科学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "大数据平台核心技术（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 24194.999998629803
+    },
+    {
+      "name": "营销：人人都需要的一门课(2016春)",
+      "category": [
+        "创业",
+        "经管·会计"
+      ],
+      "watch_time": 11453.999992072133
+    },
+    {
+      "name": "沟通心理学",
+      "category": [
+        "社科·法律"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "大数据系统基础（自主模式）",
+      "category": [],
+      "watch_time": 0
+    },
+    {
+      "name": "随机信号处理",
+      "category": [
+        "电子",
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "微积分B(1)",
+      "category": [
+        "数学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "e时代的大佬师——慕课教师的修炼心法（2015秋）",
+      "category": [
+        "教育"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "电路原理（2016春）",
+      "category": [
+        "工程"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "中医与诊断-学做自己的医生（2017秋）",
+      "category": [
+        "医学·健康"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "组合数学混合式课堂（2015秋）",
+      "category": [],
+      "watch_time": 0
+    },
+    {
+      "name": "软件设计模式",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "组合数学",
+      "category": [
+        "计算机",
+        "数学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "文献管理与信息分析",
+      "category": [
+        "经管·会计"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "数据库系统（上）：模型与语言",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "项目成本管理",
+      "category": [
+        "工程",
+        "经管·会计"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "微积分-2（2015年秋）",
+      "category": [
+        "数学"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "量子力学（上）",
+      "category": [
+        "物理"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "中国建筑史（2015春）",
+      "category": [
+        "历史"
+      ],
+      "watch_time": 1436.999993562232
+    },
+    {
+      "name": "计算机操作系统（自主模式）",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "商学导论：10节课带你走进商业世界(2016春)",
+      "category": [
+        "创业",
+        "经管·会计"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "数据挖掘",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 0
+    },
+    {
+      "name": "心理学概论（自主模式）",
+      "category": [],
+      "watch_time": 77.9999986737686
+    },
+    {
+      "name": "数据挖掘：理论与算法",
+      "category": [
+        "计算机"
+      ],
+      "watch_time": 9285.999916761899
+    },
+    {
+      "name": "线性代数（先修课）（2017春）",
+      "category": [
+        "大学先修课"
+      ],
+      "watch_time": 0
+    }
+  ],
+  "max_category": "计算机"
 }

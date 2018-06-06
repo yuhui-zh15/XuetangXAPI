@@ -31,12 +31,14 @@ def render1(data):
 @require(
     user_courses='用户选修过的所有课程，是一个列表，其中每个元素应具有`name`和`watch_time`两个字段',
     category_courses='用户选修最多的那个课程的一部分课程，用来占位，其中每个元素应当有`name`这个字段',
+    max_cnt='用户选修最多的课程类别中课程数量'
 )
 def render2(data):
     scale = 2.0
     max_courses = 100
 
-    frequencies = { normalized(course['name']): course['watch_time'] for course in data['user_courses'] }
+    frequencies = { normalized(course['name']): course['watch_time'] for course in data['user_courses'] \
+        if course['watch_time'] > 0 }
     for course in data['category_courses']:
         name = normalized(course['name'])
         if name not in frequencies:
@@ -58,7 +60,7 @@ def render2(data):
     canvas.paste(wordcloud, pos)
 
     printer(canvas, (800, 170), data['max_category'], 'msyh.ttc', 150)
-    printer(canvas, (920, 400), '%3d' % len(data['user_courses']), 'ELEPHNT.TTF', 120)
+    printer(canvas, (920, 400), '%3d' % data['max_cnt'], 'ELEPHNT.TTF', 120)
     return canvas
 
 

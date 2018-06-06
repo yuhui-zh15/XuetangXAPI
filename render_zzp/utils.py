@@ -22,7 +22,7 @@ def normalized(name):
     for punct in puncts:
         if punct in name:
             return name[:name.index(punct)]
-    return name
+    return name.strip()
 
 
 def printer(img, pos, text, font_name, font_size, max_x=0):

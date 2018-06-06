@@ -175,5 +175,5 @@ def get_data6(user_id):
 
 if __name__ == '__main__':
     # print get_data('473725')
-    with codecs.open('data.json', 'w', 'utf-8') as fout:
-        json.dump(get_data2('709907'), fout, indent=2, ensure_ascii=False)
+    with codecs.open('render_zzp/data.json', 'w', 'utf-8') as fout:
+        json.dump(get_data2('11436'), fout, indent=2, ensure_ascii=False)
