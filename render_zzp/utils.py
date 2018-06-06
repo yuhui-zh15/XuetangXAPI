@@ -1,5 +1,8 @@
 #encoding=utf-8
-from PIL import ImageDraw, ImageFont
+from PIL import ImageDraw, ImageFont, Image
+
+
+font_dir = 'render_zzp/assets/fonts/'
 
 
 def require(**fields):

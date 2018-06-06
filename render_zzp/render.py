@@ -10,7 +10,6 @@ from render_zzp.utils import *
 
 
 img_dir = 'render_zzp/assets/images/'
-font_dir = 'render_zzp/assets/fonts/'
 courses_dir = 'render_zyh/assets/courses/'
 
 
