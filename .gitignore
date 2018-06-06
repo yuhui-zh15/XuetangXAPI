@@ -1,9 +1,15 @@
 buffer/*
 data/*.json
 data/*.csv
+<<<<<<< HEAD
+render_zyh/assets/courses/*
+.DS_Store
+**.pyc
+=======
 data/json/
 render_zyh/assets/courses/*
 .DS_Store
 **.pyc
 **.psd
 **.ai
+>>>>>>> a45087cf8152da93f8a45790bb5104fd1d00dbcc
