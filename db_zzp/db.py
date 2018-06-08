@@ -166,8 +166,8 @@ def get_data6(user_id):
 
     # <TODO> better course recommendation
     random.shuffle(category_courses)
-    recommend_courses_image_file = [course['image'] for course in category_courses]
-    recommend_courses_names = [course['name'] for course in category_courses]
+    recommend_courses_image_file = [course['image'] for course in category_courses if course['image'] is not None]
+    recommend_courses_names = [course['name'] for course in category_courses if course['image'] is not None]
 
     return {
         'recommend_courses_image_file': recommend_courses_image_file,
